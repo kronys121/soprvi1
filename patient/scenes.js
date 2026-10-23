@@ -32,7 +32,7 @@ function buildScenes() {
   const r2 = rng(21);
   for (let i = 0; i < 22; i++) {
     const t = Wt('миллионы') + i * .055;
-    card({ x: A2[0] + (r2() - .5) * 1700, y: A2[1] + (r2() - .5) * 900, rot: (r2() - .5) * 1.2, w: 230, h: 120, tIn: t, dur: .28, enter: 'drop', dx: (r2() - .5) * 200, dy: -200, snd: i % 3 === 0,
+    card({ x: A2[0] + (r2() - .5) * 1700, y: A2[1] - 230 + r2() * 720, rot: (r2() - .5) * 1.2, w: 230, h: 120, tIn: t, dur: .28, enter: 'drop', dx: (r2() - .5) * 200, dy: -200, snd: i % 3 === 0,
       color: '#e2dccd', order: -50 + i, text: (g) => { g.fillStyle = INK; g.font = `700 26px ${MONO}`; g.textAlign = 'center'; g.fillText('HBO', 0, -12); g.font = `400 22px ${MONO}`; g.fillText('ВС · 21:00', 0, 26); } });
   }
   const seasonsStill = ['s1', 's2', 's3', 's4', 's5', 's6'], folders = [];
@@ -370,6 +370,7 @@ function buildScenes() {
   thread([[A12[0] - 640, A12[1] - 380], [A15[0], A15[1] - 235]], 121.9, 123.2, { width: 6, silent: true });
   camKey(121.4, A18[0] - 200, A18[1] + 200, .5, .01); camKey(123.8, 1700, 1900, .145, 0); camKey(125.0, 1700, 1900, .14, 0);
   sfx('rise', 120.4, { dur: 3.6 }); sfx('hit', 124.2);
+  typed('ДАЛЕЕ  ·  ГЛАВА 02  ·  СЫН', 123.4, .03);
 
   // foreground out-of-focus props for depth
   fgProp({ x: -900, y: 300, spr: 'ashtray', s: 1.1, p: 1.9 }); fgProp({ x: 3300, y: 120, spr: 'smoke', s: 1.6, p: 1.5, a: .8 });

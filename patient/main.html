@@ -116,6 +116,12 @@ function post(t) {
     const v = out.createRadialGradient(W / 2, H / 2, H * (.55 - faint * .3), W / 2, H / 2, H * .95); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, `rgba(0,0,0,${faint * .85})`); out.fillStyle = v; out.fillRect(0, 0, W, H);
   }
   out.save(); out.globalCompositeOperation = 'soft-light'; out.fillStyle = 'rgba(90,140,130,.16)'; out.fillRect(0, 0, W, H); out.restore();
+  const nx = prog(t, 123.3, 123.9); if (nx > 0) {   // next-chapter tab on the final wide shot
+    const ty = { str: 'ДАЛЕЕ  ·  ГЛАВА 02  ·  СЫН', t0: 123.4, per: .03 };
+    out.save(); out.globalAlpha = eout(nx); out.translate(W / 2, H - 120 + (1 - eout(nx)) * 40);
+    out.fillStyle = '#c4a167'; out.shadowColor = 'rgba(0,0,0,.6)'; out.shadowBlur = 30; out.shadowOffsetY = 14; out.beginPath(); out.roundRect(-430, -48, 860, 96, 8); out.fill(); out.shadowColor = 'transparent';
+    drawTyped(out, ty, t, 0, 14, `800 40px ${MONO}`, INK, 'center'); out.restore();
+  }
   vignette(out, .82); applyGrain(out, t, .11);
   const fo = prog(t, T_END - .5, T_END); if (fo > 0) { out.fillStyle = `rgba(0,0,0,${fo})`; out.fillRect(0, 0, W, H); }
 }
