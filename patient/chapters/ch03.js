@@ -92,6 +92,7 @@ function buildScenes() {
   const A7 = [2300, 3700]; lamp(A7[0], A7[1] - 200, 2000, 1);
   const tMerge = Wt('совмещать') - .2;
   item({ x: A7[0], y: A7[1], w: 1500, h: 700, order: 700, tIn: Wt('одного') - .2, dur: .3, enter: 'slide', dx: 0, dy: 500,
+    srcs: t => [vid('car', Wt('одного') - .2, 3.0), vid('strangle', Wt('обе') - .1, 4.0)],
     draw: (g, t) => {
       const m = eio(prog(t, tMerge, tMerge + .9)), w = 640, h = photoH(640), sep = lerp(370, 0, m);
       const drawP = (src, x, a, r, label, la) => { g.save(); g.translate(x, 0); g.rotate(r * (1 - m)); g.globalAlpha *= a; drawPhoto(g, t, { w, h, src, order: 701 + (x > 0) }); if (la > 0) { g.globalAlpha *= la; g.fillStyle = INK; g.font = `800 40px ${SANS}`; g.textAlign = 'center'; g.fillText(label, 0, h / 2 - 22); } g.restore(); };
@@ -111,7 +112,7 @@ function buildScenes() {
   photo({ x: A8[0] - 300, y: A8[1] + 80, w: 560, rot: -.04, order: 810, tIn: Wt('эй-джей') - .05, dur: .3, enter: 'drop', dx: -100, dy: -240, src: vid('ajsit', Wt('эй-джей'), 0), caption: typed('ЭЙ-ДЖЕЙ', Wt('эй-джей') + .2, .05, { silent: true }), capSize: 28 });
   tag({ x: A8[0] - 760, y: A8[1] + 470, w: 470, rot: -.05, label: 'ПОТЕРЯННЫЙ', tIn: Wt('потерянным') + .05, order: 820 });
   tag({ x: A8[0] + 60, y: A8[1] + 520, w: 500, rot: .05, label: 'ДЕПРЕССИВНЫЙ', tIn: Wt('депрессивным') + .05, order: 821 });
-  const pool = photo({ x: A8[0] + 520, y: A8[1] - 140, w: 640, rot: .05, order: 830, tIn: Wt('утопиться') - .05, dur: .3, enter: 'drop', dx: 200, dy: -200, src: vid('ajpool', Wt('утопиться'), 0) });
+  const pool = photo({ x: A8[0] + 520, y: A8[1] - 140, w: 640, rot: .05, order: 830, tIn: Wt('шестом') + .1, dur: .3, enter: 'drop', dx: 200, dy: -200, src: vid('ajpool', Wt('утопиться') - .6, 0) });
   pool.stamps = [stamp('СЕЗОН 6', Wt('шестом') + .3, { x: 150, y: -110, size: 46, rot: .08, shake: 6 })];
   sfx('splash', Wt('утопиться') + 1.0);
   link(A8[0] - 1000, A8[1] - 410, Wt('совмещать') + 1.0, Wt('позже') + .2);
@@ -126,10 +127,10 @@ function buildScenes() {
     [[typed('НЕ БОСС', Wt('босса'), .05), -200, 20, `800 60px ${SANS}`, INK, 'center'], [typed('ОТЕЦ', Wt('отца') + .15, .06, { heavy: true }), 220, 20, `800 60px ${SANS}`, RED, 'center']]);
   nb.pens = [pen([[-330, 6], [-70, 0]], Wt('отца') - .15, .22, { width: 9 })];
   hug.stamps = [stamp('НАПУГАН', Wt('напуган'), { x: 220, y: 120, size: 84, rot: -.08, shake: 16 })];
-  focus(Wt('ярости') - .3, Wt('себя') + .8, [hug], .9);
+  focus(Wt('ярости') - .3, Wt('себе') + .8, [hug], .9);
   link(A9[0] - 470, A9[1] - 330, Wt('бассейне') + .4, Wt('вытаскивает') + .2);
   travel(Wt('бассейне') + .4, Wt('вытаскивает') + .2);
-  camKey(Wt('вытаскивает') + .2, A9[0], A9[1] - 30, 1.05, .01); camKey(Wt('себя') + .3, A9[0] - 20, A9[1] - 60, 1.45, -.02);
+  camKey(Wt('вытаскивает') + .2, A9[0], A9[1] - 30, 1.05, .01); camKey(Wt('себе') + .3, A9[0] - 20, A9[1] - 60, 1.45, -.02);
   camKey(Wt('момент') + .3, A9[0] + 20, A9[1] + 200, 1.0, 0); camKey(Wt('напуган') + .3, A9[0] + 60, A9[1] + 120, 1.1, .015); camKey(T_END, A9[0] + 80, A9[1] + 100, 1.16, .02);
 
   ensureFG([[900, 600, 'ashtray', 1.1, 1.9], [3200, 900, 'smoke', 1.6, 1.5, 0, .8], [5800, 900, 'cup', 1.0, 1.9], [800, 2900, 'pen', 1.2, 1.85, .4], [3300, 2800, 'smoke', 1.7, 1.5, 0, .8], [6000, 4500, 'ashtray', 1.0, 1.9], [8000, 3000, 'pen', 1.2, 1.85, -.3]]);

@@ -111,7 +111,7 @@ class Item {
       x += q * (ex.dx || 0); y += q * (ex.dy || 0); r += q * (ex.drot || 0); L += q * (ex.L || 0); if (ex.fade) a *= 1 - q;
       if (ex.type === 'fly') { const lift = Math.sin(Math.PI * clamp(prog(t, ex.t - .12, ex.t + .1))) * .08; L += lift; }
     }
-    if (this.anim) this.anim(t, this);
+    if (this.anim) { const r = this.anim(t, this); if (r) { L += r.L || 0; x += r.x || 0; y += r.y || 0; s *= r.s || 1; } }
     return { x, y, r, s, L, a };
   }
 }

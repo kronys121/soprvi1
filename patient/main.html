@@ -100,7 +100,7 @@ function samplesAt(t) {
 }
 function urlsAt(t) {
   const c = camAt(t), u = new Set();
-  for (const [it, st] of visibleItems(t, c)) { const s = srcUrl(it.src, t); if (s) u.add(s); }
+  for (const [it, st] of visibleItems(t, c)) { const s = srcUrl(it.src, t); if (s) u.add(s); if (it.srcs) for (const x of it.srcs(t)) { const v = srcUrl(x, t); if (v) u.add(v); } }
   return u;
 }
 function post(t) {
