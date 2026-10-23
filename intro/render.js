@@ -1,5 +1,5 @@
 // usage: node render.js page.html out.mp4 [dur] | node render.js page.html --stills dir t1,t2,...
-const { chromium } = require('/opt/npm-tools/node_modules/playwright');
+const { chromium } = require(process.env.PW || 'playwright');
 const { spawn } = require('child_process'); const fs = require('fs'); const path = require('path');
 (async () => {
   const [html, out, arg3] = process.argv.slice(2);

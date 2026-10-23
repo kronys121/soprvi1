@@ -3,3 +3,6 @@ node_modules/
 *.avi
 *.mkv
 frames_*/
+patient/assets/frames/
+patient/stems/
+*.wav
