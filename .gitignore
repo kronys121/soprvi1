@@ -10,3 +10,5 @@ thumb/src_*.png
 thumb/t*.jpg
 thumb/cmp.jpg
 out/
+thumb/*.png
+thumb/*.jpg
