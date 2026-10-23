@@ -100,6 +100,174 @@
    "s6e02.avi",
    1058,
    8
+  ],
+  "livia": [
+   "e01.avi",
+   1030.7,
+   3.6
+  ],
+  "liviacomplain": [
+   "e01.avi",
+   940,
+   6
+  ],
+  "conspire": [
+   "e01.avi",
+   3425,
+   6
+  ],
+  "cleaver": [
+   "s3e03.avi",
+   2262,
+   7
+  ],
+  "dinner": [
+   "s3e03.avi",
+   2444,
+   5
+  ],
+  "car": [
+   "e05.avi",
+   205,
+   7
+  ],
+  "meadowask": [
+   "e05.avi",
+   262,
+   6
+  ],
+  "febby": [
+   "e05.avi",
+   440,
+   5
+  ],
+  "tonyspot": [
+   "e05.avi",
+   446,
+   4
+  ],
+  "track": [
+   "e05.avi",
+   2438,
+   6
+  ],
+  "return": [
+   "e05.avi",
+   3027,
+   6
+  ],
+  "ajsit": [
+   "s6e19.mkv",
+   1231,
+   5
+  ],
+  "ajpool": [
+   "s6e19.mkv",
+   1332,
+   6
+  ],
+  "ajhug": [
+   "s6e19.mkv",
+   1419,
+   8
+  ],
+  "whitecaps": [
+   "s4e13.avi",
+   3150,
+   7
+  ],
+  "carmyell": [
+   "s4e13.avi",
+   3200,
+   6
+  ],
+  "boat": [
+   "s2e13.avi",
+   2003,
+   6
+  ],
+  "boatsea": [
+   "s2e13.avi",
+   2229,
+   5
+  ],
+  "boattony": [
+   "s2e13.avi",
+   2196,
+   4
+  ],
+  "horse": [
+   "s4e05.avi",
+   3092,
+   7,
+   "eq=gamma=1.4"
+  ],
+  "fight": [
+   "s4e09.avi",
+   2036,
+   7
+  ],
+  "crash": [
+   "s6e18.mkv",
+   440,
+   6,
+   "eq=gamma=1.7:contrast=1.1"
+  ],
+  "nose": [
+   "s6e18.mkv",
+   534,
+   7,
+   "eq=gamma=1.7:contrast=1.1"
+  ],
+  "breakfast": [
+   "e02.avi",
+   404,
+   6
+  ],
+  "rage": [
+   "e02.avi",
+   2168,
+   5
+  ],
+  "melfilisten": [
+   "e01.avi",
+   1653,
+   5
+  ],
+  "melficry": [
+   "s3e04.avi",
+   2600,
+   6
+  ],
+  "melfino": [
+   "s3e04.avi",
+   3048,
+   9
+  ],
+  "yochelson": [
+   "s6e20.mkv",
+   836,
+   7
+  ],
+  "terminate": [
+   "s6e20.mkv",
+   1410,
+   7
+  ],
+  "jukebox": [
+   "s6e21.mkv",
+   3313,
+   4
+  ],
+  "dinertony": [
+   "s6e21.mkv",
+   3343,
+   7
+  ],
+  "dinerbell": [
+   "s6e21.mkv",
+   3378,
+   6
   ]
  },
  "stills": {
@@ -174,6 +342,86 @@
   "carmela": [
    "e13.avi",
    1300
+  ],
+  "young": [
+   "s3e03.avi",
+   2366
+  ],
+  "greengrove": [
+   "e02.avi",
+   2390
+  ],
+  "carmknows": [
+   "e05.avi",
+   1210
+  ],
+  "gloria2": [
+   "s3e12.avi",
+   320
+  ],
+  "poolhouse": [
+   "s4e13.avi",
+   3005
+  ],
+  "carmpool": [
+   "s4e13.avi",
+   3025
+  ],
+  "pussy": [
+   "e02.avi",
+   900.4
+  ],
+  "ralphface": [
+   "s4e09.avi",
+   1982
+  ],
+  "richie": [
+   "s2e03.avi",
+   801
+  ],
+  "phil": [
+   "s6e21.mkv",
+   741
+  ],
+  "chris": [
+   "s4e09.avi",
+   2520
+  ],
+  "paulie": [
+   "s2e13.avi",
+   600
+  ],
+  "ajsad": [
+   "s6e19.mkv",
+   1235
+  ],
+  "meadow": [
+   "e05.avi",
+   230
+  ],
+  "gandolfini": [
+   "e01.avi",
+   3230
+  ],
+  "tired": [
+   "s5e10.avi",
+   681
+  ],
+  "charm": [
+   "s3e04.avi",
+   981
+  ],
+  "melfi3": [
+   "s3e04.avi",
+   3057
+  ],
+  "melfi6": [
+   "s6e20.mkv",
+   1520
+  ],
+  "pussyboat": [
+   "s2e13.avi",
+   2203
   ]
  }
 }

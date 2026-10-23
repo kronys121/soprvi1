@@ -7,7 +7,7 @@ const { chromium } = require(process.env.PW || 'playwright'); const fs = require
   const browser = await chromium.launch({ args: ['--allow-file-access-from-files'] });
   const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
   page.on('console', m => console.log('[page]', m.text())); page.on('pageerror', e => console.log('[err]', e.message));
-  await page.goto('file://' + path.resolve(html)); await page.waitForFunction('window.ready===true', null, { timeout: 120000 });
+  const [hp, hq] = html.split('?'); await page.goto('file://' + path.resolve(hp) + (hq ? '?' + hq : '')); await page.waitForFunction('window.ready===true', null, { timeout: 120000 });
   const grab = async t => { const d = await page.evaluate(async tt => { await renderAt(tt); return document.getElementById('cv').toDataURL('image/jpeg', .93); }, t); return Buffer.from(d.split(',')[1], 'base64'); };
   if (a1 === '--sfx') fs.writeFileSync(a2, JSON.stringify(await page.evaluate(() => getSfx()), null, 0));
   else if (a1 === '--stills') { fs.mkdirSync(a2, { recursive: true }); for (const t of a3.split(',').map(Number)) fs.writeFileSync(`${a2}/t${t.toFixed(2)}.jpg`, await grab(t)); }

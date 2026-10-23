@@ -7,9 +7,11 @@ const RED = '#b8261e', PAPER = '#ebe5d8', INK = '#1d1915', MANILA = '#c9a86a';
 
 // ---------- words ----------
 const norm = s => s.toLowerCase().replace(/ё/g, 'е').replace(/[«»"(),.:;!?—–\-]/g, '');
+let CH_V0 = 0;                          // word search starts here (voice time) for the current chapter
+const vOff = v => (typeof offAt === 'function' ? offAt(v) : OFF);
 function Wt(word, n = 1, end = false) {
   let c = 0; const q = norm(word);
-  for (const [s, e, w] of WORDS) if (norm(w).startsWith(q) && ++c === n) return (end ? e : s) + OFF;
+  for (const [s, e, w] of WORDS) if (s >= CH_V0 - 1e-6 && norm(w).startsWith(q) && ++c === n) return (end ? e : s) + vOff(s);
   throw new Error('word not found: ' + word + ' #' + n);
 }
 
@@ -214,6 +216,10 @@ function drawPhoto(g, t, it) {
   g.drawImage(paper(w, h, '#eee9de', false, it.order), -w / 2, -h / 2);
   const url = srcUrl(it.src, t), im = url && got(url);
   if (im) g.drawImage(im, -w / 2 + 20, -h / 2 + 20, iw, ih); else { g.fillStyle = '#222'; g.fillRect(-w / 2 + 20, -h / 2 + 20, iw, ih); }
+  if (it.sepia) { g.save(); g.globalCompositeOperation = 'color'; g.fillStyle = 'rgba(150,105,55,.8)'; g.fillRect(-w / 2 + 20, -h / 2 + 20, iw, ih); g.restore(); }
+  const gr0 = it.greyAt ? it.greyAt(t) : 0;
+  if (gr0 > 0) { g.save(); g.globalCompositeOperation = 'saturation'; g.globalAlpha *= gr0; g.fillStyle = '#808080'; g.fillRect(-w / 2 + 20, -h / 2 + 20, iw, ih); g.restore(); }
+  if (it.over) it.over(g, t, -w / 2 + 20, -h / 2 + 20, iw, ih);
   // print sheen + inner edge
   const gr = g.createLinearGradient(-w / 2, -h / 2, w / 2, h / 2); gr.addColorStop(0, 'rgba(255,255,255,.07)'); gr.addColorStop(.5, 'rgba(255,255,255,0)'); gr.addColorStop(1, 'rgba(0,0,0,.08)');
   g.fillStyle = gr; g.fillRect(-w / 2 + 20, -h / 2 + 20, iw, ih); g.strokeStyle = 'rgba(0,0,0,.25)'; g.lineWidth = 1.5; g.strokeRect(-w / 2 + 20, -h / 2 + 20, iw, ih);
@@ -289,3 +295,5 @@ function focusAt(t) {
   return { amt: a, items: best ? best.items : [] };
 }
 const fxAt = (name, t) => { let v = 0; for (const f of FX) if (f.name === name) v = Math.max(v, f.fn(t)); return v; };
+// sanity: camera keys must be strictly increasing in time (equal times break the spline)
+function checkCam() { for (let i = 1; i < CAMK.length; i++) if (CAMK[i].t - CAMK[i - 1].t < .02) console.log(`[err] camera keys too close at ${CAMK[i].t.toFixed(3)} (${(CAMK[i].t - CAMK[i - 1].t).toFixed(3)})`); }
