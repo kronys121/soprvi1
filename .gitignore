@@ -6,3 +6,7 @@ frames_*/
 patient/assets/frames/
 patient/stems/
 *.wav
+thumb/src_*.png
+thumb/t*.jpg
+thumb/cmp.jpg
+out/
