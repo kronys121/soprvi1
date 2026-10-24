@@ -1,0 +1,426 @@
+{
+ "fps": 23.976,
+ "clips": {
+  "confession": [
+   "s1e01.mp4",
+   158,
+   8
+  ],
+  "underwear": [
+   "s1e01.mp4",
+   80,
+   4
+  ],
+  "rvdust": [
+   "s1e01.mp4",
+   40,
+   4
+  ],
+  "class": [
+   "s1e01.mp4",
+   478,
+   6
+  ],
+  "carwash": [
+   "s1e01.mp4",
+   602,
+   5
+  ],
+  "party": [
+   "s1e01.mp4",
+   715,
+   6
+  ],
+  "collapse": [
+   "s1e01.mp4",
+   979,
+   4
+  ],
+  "diagnosis": [
+   "s1e01.mp4",
+   1120,
+   6
+  ],
+  "firstcook": [
+   "s1e01.mp4",
+   2440,
+   6
+  ],
+  "krazygun": [
+   "s1e01.mp4",
+   2870,
+   5
+  ],
+  "gunwalt": [
+   "s1e01.mp4",
+   3120,
+   6
+  ],
+  "basement": [
+   "s1e03.mp4",
+   545,
+   6
+  ],
+  "list": [
+   "s1e03.mp4",
+   1240,
+   5
+  ],
+  "strangle": [
+   "s1e03.mp4",
+   2350,
+   8
+  ],
+  "graymatter": [
+   "s1e05.mp4",
+   645,
+   6
+  ],
+  "gretchen": [
+   "s1e05.mp4",
+   880,
+   5
+  ],
+  "shave": [
+   "s1e06.mp4",
+   2338,
+   6
+  ],
+  "tucowalk": [
+   "s1e06.mp4",
+   2425,
+   5
+  ],
+  "tucoboom": [
+   "s1e06.mp4",
+   2635,
+   6
+  ],
+  "crystal": [
+   "s1e06.mp4",
+   2712,
+   7
+  ],
+  "moneywalk": [
+   "s1e06.mp4",
+   2760,
+   5
+  ],
+  "bear": [
+   "s2e01.mp4",
+   61,
+   6
+  ],
+  "hat": [
+   "s2e01.mp4",
+   255,
+   6
+  ],
+  "naked": [
+   "s2e03.mp4",
+   182,
+   5
+  ],
+  "janedie": [
+   "s2e12.mp4",
+   2700,
+   9
+  ],
+  "walttear": [
+   "s2e12.mp4",
+   2745,
+   6
+  ],
+  "jesselove": [
+   "s2e12.mp4",
+   1440,
+   5
+  ],
+  "planes": [
+   "s2e13.mp4",
+   2776,
+   5
+  ],
+  "bearpool": [
+   "s2e13.mp4",
+   2790,
+   9
+  ],
+  "grief": [
+   "s2e13.mp4",
+   2265,
+   6
+  ],
+  "gale": [
+   "s3e13.mp4",
+   2745,
+   8
+  ],
+  "galesing": [
+   "s3e13.mp4",
+   1290,
+   6
+  ],
+  "knocks": [
+   "s4e06.mp4",
+   2650,
+   12
+  ],
+  "gusbell": [
+   "s4e13.mp4",
+   2263,
+   9
+  ],
+  "gusface": [
+   "s4e13.mp4",
+   2283,
+   11
+  ],
+  "lily": [
+   "s4e13.mp4",
+   2945,
+   8
+  ],
+  "phonewin": [
+   "s4e13.mp4",
+   2858,
+   5
+  ],
+  "saymyname": [
+   "s5e07.mp4",
+   195,
+   12
+  ],
+  "saydesert": [
+   "s5e07.mp4",
+   40,
+   6
+  ],
+  "vault": [
+   "s5e07.mp4",
+   795,
+   6
+  ],
+  "mikeshot": [
+   "s5e07.mp4",
+   2660,
+   10
+  ],
+  "mikeriver": [
+   "s5e07.mp4",
+   2725,
+   8
+  ],
+  "vaultmoney": [
+   "s5e08.mp4",
+   1995,
+   6
+  ],
+  "prison": [
+   "s5e08.mp4",
+   1630,
+   6
+  ],
+  "leaves": [
+   "s5e08.mp4",
+   2756,
+   8
+  ],
+  "arrest": [
+   "s5e13.mp4",
+   2250,
+   8
+  ],
+  "hankcuff": [
+   "s5e13.mp4",
+   2370,
+   6
+  ],
+  "shootout": [
+   "s5e13.mp4",
+   2660,
+   8
+  ],
+  "hankdie": [
+   "s5e14.mp4",
+   590,
+   8
+  ],
+  "barrels": [
+   "s5e14.mp4",
+   740,
+   6
+  ],
+  "janetruth": [
+   "s5e14.mp4",
+   1010,
+   9
+  ],
+  "walkaway": [
+   "s5e14.mp4",
+   1340,
+   6
+  ],
+  "kidnap": [
+   "s5e14.mp4",
+   2345,
+   6
+  ],
+  "phonecall": [
+   "s5e14.mp4",
+   2525,
+   10
+  ],
+  "cabin": [
+   "s5e15.mp4",
+   2110,
+   6
+  ],
+  "cabinsnow": [
+   "s5e15.mp4",
+   1610,
+   5
+  ],
+  "sonphone": [
+   "s5e15.mp4",
+   2660,
+   7
+  ],
+  "waltphone": [
+   "s5e15.mp4",
+   2780,
+   6
+  ],
+  "forme": [
+   "s5e16.mp4",
+   1935,
+   12
+  ],
+  "holly": [
+   "s5e16.mp4",
+   2120,
+   6
+  ],
+  "machinegun": [
+   "s5e16.mp4",
+   2655,
+   6
+  ],
+  "death": [
+   "s5e16.mp4",
+   3200,
+   10
+  ],
+  "deathtop": [
+   "s5e16.mp4",
+   3240,
+   6
+  ],
+  "d_knocks": [
+   "s4e06.mp4",
+   572.5,
+   10.5
+  ],
+  "d_say": [
+   "s5e07.mp4",
+   355.2,
+   14.8
+  ],
+  "d_jane1": [
+   "s5e14.mp4",
+   1049.7,
+   3.1
+  ],
+  "d_jane2": [
+   "s5e14.mp4",
+   1073.3,
+   5.7
+  ],
+  "d_son1": [
+   "s5e15.mp4",
+   2813.7,
+   3.7
+  ],
+  "d_son2": [
+   "s5e15.mp4",
+   2847.8,
+   1.9
+  ],
+  "d_forme": [
+   "s5e16.mp4",
+   2010.6,
+   16.2
+  ]
+ },
+ "stills": {
+  "teacher": [
+   "s1e01.mp4",
+   480
+  ],
+  "hank": [
+   "s1e01.mp4",
+   720
+  ],
+  "jesse": [
+   "s1e01.mp4",
+   3260
+  ],
+  "skyler": [
+   "s1e05.mp4",
+   885
+  ],
+  "walthat": [
+   "s2e01.mp4",
+   256
+  ],
+  "walthome": [
+   "s2e01.mp4",
+   733
+  ],
+  "krazy": [
+   "s1e03.mp4",
+   1950
+  ],
+  "tuco": [
+   "s1e06.mp4",
+   2580
+  ],
+  "gus": [
+   "s4e13.mp4",
+   2210
+  ],
+  "jane": [
+   "s2e12.mp4",
+   1465
+  ],
+  "mike": [
+   "s5e07.mp4",
+   2700
+  ],
+  "cranston": [
+   "s5e16.mp4",
+   2010
+  ],
+  "heisenberg5": [
+   "s5e07.mp4",
+   360
+  ],
+  "tony": [
+   "none.mp4",
+   0
+  ],
+  "waltface": [
+   "none.mp4",
+   0
+  ]
+ },
+ "dlg": {
+  "d_knocks": 10.5,
+  "d_say": 14.8,
+  "d_jane1": 3.1,
+  "d_jane2": 5.7,
+  "d_son1": 3.7,
+  "d_son2": 1.9,
+  "d_forme": 16.2
+ }
+}

@@ -10,8 +10,8 @@ const norm = s => s.toLowerCase().replace(/ё/g, 'е').replace(/[«»"(),.:;!?�
 let CH_V0 = 0;                          // word search starts here (voice time) for the current chapter
 const vOff = v => (typeof offAt === 'function' ? offAt(v) : OFF);
 function Wt(word, n = 1, end = false) {
-  let c = 0; const q = norm(word);
-  for (const [s, e, w] of WORDS) if (s >= CH_V0 - 1e-6 && norm(w).startsWith(q) && ++c === n) return (end ? e : s) + vOff(s);
+  let c = 0; const ex = word[0] === '=', q = norm(ex ? word.slice(1) : word);
+  for (const [s, e, w] of WORDS) if (s >= CH_V0 - 1e-6 && (ex ? norm(w) === q : norm(w).startsWith(q)) && ++c === n) return (end ? e : s) + vOff(s);
   throw new Error('word not found: ' + word + ' #' + n);
 }
 

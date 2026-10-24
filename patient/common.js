@@ -25,8 +25,8 @@ function divider(A, num, title, t0) {
   lamp(A[0], A[1] - 200, 1500, .9);
   const f = item({ draw: drawFolder, x: A[0], y: A[1], w: 1200, h: 760, rot: -.015, order: 5, tIn: t0 - .1, enter: 'none', tab: `ГЛАВА ${String(num).padStart(2, '0')}`,
     text: (g, t, it) => {
-      g.fillStyle = 'rgba(40,25,10,.8)'; g.font = `400 30px ${MONO}`; g.textAlign = 'center'; g.fillText('ДЕЛО № 1999 · Т. СОПРАНО', 0, -250);
-      const size = title.length > 7 ? 140 : 170; g.font = `800 ${size}px ${SANS}`; g.textBaseline = 'middle'; g.letterSpacing = '10px';
+      g.fillStyle = 'rgba(40,25,10,.8)'; g.font = `400 30px ${MONO}`; g.textAlign = 'center'; g.fillText(typeof CASE_LABEL !== 'undefined' ? CASE_LABEL : 'ДЕЛО № 1999 · Т. СОПРАНО', 0, -250);
+      const size = title.length > 10 ? 112 : title.length > 7 ? 140 : 170; g.font = `800 ${size}px ${SANS}`; g.textBaseline = 'middle'; g.letterSpacing = '10px';
       const total = g.measureText(title).width; let x = -total / 2;
       [...title].forEach((c, k) => { const w = g.measureText(c).width + 10, ts = t0 + .25 + k * .06, p = eout5(prog(t, ts, ts + .35)); if (p > 0) { g.save(); g.translate(x + w / 2, 40 + (1 - p) * 70); g.rotate((1 - p) * (k % 2 ? .25 : -.2)); g.globalAlpha *= clamp(p * 2); g.fillStyle = INK; g.textAlign = 'center'; g.fillText(c, 0, 0); g.restore(); } x += w; });
       g.letterSpacing = '0px'; drawStamp(g, it.s, t);
@@ -50,3 +50,12 @@ function drawChecks(g, t, list, font = `700 40px ${MONO}`) {
   }
 }
 const ensureFG = (pts) => pts.forEach(([x, y, spr, s, p, rot, a]) => fgProp({ x, y, spr, s, p, rot: rot || 0, a: a ?? .9 }));
+// original-dialogue playback: a large print plays the clip with its own (dubbed) audio; a red "REC" tag marks it as evidence
+function dlgShot(key, x, y, o = {}) {
+  const t0 = DLGT[key], d = MEDIA.frames[key] / MEDIA.fps;
+  const ph = photo({ x, y, w: o.w || 980, rot: o.rot ?? -.01, order: o.order || 900, tIn: t0 - .25, dur: .3, enter: 'drop', dx: 0, dy: -260, src: vid(key, t0, 0), ...o.extra });
+  item({ x: x + (o.w || 980) / 2 - 120, y: y - photoH(o.w || 980) / 2 - 34, w: 220, h: 60, order: (o.order || 900) + 1, shadow: 0, lit: false, tIn: t0 - .1, enter: 'fade', dur: .2,
+    draw: (g, t) => { if (t > t0 + d + .3) return; const on = Math.floor(t * 2) % 2 === 0; g.fillStyle = 'rgba(20,16,14,.85)'; g.beginPath(); g.roundRect(-110, -30, 220, 60, 8); g.fill();
+      if (on) { g.fillStyle = '#e8352a'; g.beginPath(); g.arc(-70, 0, 13, 0, 7); g.fill(); } g.fillStyle = '#f2ede4'; g.font = `800 30px ${SANS}`; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('ЗАПИСЬ', -46, 2); } });
+  return ph;
+}
