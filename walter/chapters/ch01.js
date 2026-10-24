@@ -55,8 +55,8 @@ function buildScenes() {
   // S5 · a story of justice — and the trap
   const A5 = [-200, 1900]; lamp(A5[0], A5[1] - 200, 2000, 1);
   const sc = card({ x: A5[0] - 300, y: A5[1], w: 760, h: 520, rot: -.02, order: 500, lined: true, tIn: Wt('поэтому') - .2, dur: .3, enter: 'slide', dx: -500, dy: 0,
-    text: (g, t, it) => { drawTyped(g, it.h, t, -340, -100, `700 36px ${MONO}`); drawChecks(g, t, it.cl); } });
-  sc.h = typed('ПОЧЕМУ МЫ НА ЕГО СТОРОНЕ', Wt('поэтому'), .025);
+    text: (g, t, it) => { drawTyped(g, it.hd, t, -340, -100, `700 36px ${MONO}`); drawChecks(g, t, it.cl); } });
+  sc.hd = typed('ПОЧЕМУ МЫ НА ЕГО СТОРОНЕ', Wt('поэтому'), .025);
   sc.cl = [checkLine('У НЕГО ОТНЯЛИ ВСЁ', Wt('отняли') + .1, 'v', -300, 0), checkLine('ДЕНЬГИ ДЛЯ СЕМЬИ', Wt('семье') + .2, 'v', -300, 90), checkLine('ЕМУ ОСТАЛОСЬ НЕДОЛГО', Wt('жив') + .1, 'v', -300, 180)];
   pw('waltface', Wt('тихий') - .1, { x: A5[0] + 520, y: A5[1] - 160, w: 520, rot: .05, order: 510 });
   const trap = card({ x: A5[0] + 100, y: A5[1] + 420, w: 1, h: 1, shadow: 0, lit: false, order: 520, tIn: 0, draw: (g, t, it) => drawStamp(g, it.s, t) });
