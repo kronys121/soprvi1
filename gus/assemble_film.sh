@@ -3,7 +3,7 @@
 set -e
 here=$(cd "$(dirname "$0")" && pwd); S=/home/user/render/gseg; OUT=${1:-/home/user/soprvi1/out/gus_full.mp4}; tmp=$(mktemp -d)
 : > $tmp/list.txt; total=0
-for k in 0 1 2 3 4 5 6 7 8 9 10; do
+for k in 0 1 2 3 4 5 6 7 8 9; do
   want=$(node -e "const t=require('$here/timeline.js'); const [a,b]=t.chRange($k); console.log(Math.round((b-a)*60))")
   f=$S/ch$(printf %02d $k).mp4; have=$(ffprobe -v error -count_packets -select_streams v -show_entries stream=nb_read_packets -of csv=p=0 $f)
   total=$((total+want))
