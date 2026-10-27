@@ -1,4 +1,4 @@
-# Walter film soundtrack: score per chapter, SFX from sfx/chNN.json, voice pieces from timeline.js,
+# Gus film soundtrack: score per chapter, SFX from sfx/chNN.json, voice pieces from timeline.js,
 # original-dub dialogue inserts at DLGT (music almost muted under them), ducking under the voice.
 # usage: python3 audio_film.py  -> mix_film.wav (48 kHz stereo)
 import json, os, subprocess
@@ -13,7 +13,7 @@ SR = ns['SR']; rs = np.random.default_rng(23)
 f, bp, lp, hp, env, tone, noise, reverb, piano, rhodes, typeclick, thump, whoosh = (ns[k] for k in
     'f bp lp hp env tone noise reverb piano rhodes typeclick thump whoosh'.split())
 
-TL = json.loads(subprocess.run(['node', '-e', "const t=require('./timeline.js'); console.log(JSON.stringify({p: t.PIECES, d: t.DLGT, end: t.FILM_END, r: [...Array(11).keys()].map(k => t.chRange(k))}))"],
+TL = json.loads(subprocess.run(['node', '-e', "const t=require('./timeline.js'); console.log(JSON.stringify({p: t.PIECES, d: t.DLGT, end: t.FILM_END, r: [...Array(10).keys()].map(k => t.chRange(k))}))"],
                                capture_output=True, text=True, cwd=here).stdout)
 DUR = TL['end']; N = int(SR * DUR); CHR = TL['r']
 def buf(): return np.zeros((2, N))
@@ -66,44 +66,41 @@ def hitm(t, g=.5): put(mus, t, thump(38, 2.0, .8), g); put(mus, t, piano(21, 2.5
 def motif(t0, g=.15, up=0):  # five-note theme (A minor)
     pianoline([(t0, 57 + up), (t0 + .8, 60 + up), (t0 + 1.6, 64 + up), (t0 + 2.6, 62 + up), (t0 + 3.4, 60 + up)], g)
 
-# 00 cold open: drone and clock, then the groove; hit on the title
+# 00 cold open: drone and clock, then a slow half-time groove; hit on the title
 a, b = CHR[0]
-drone(0, 8.0, .18); clock(.4, 8.0, .08); hitm(1.6, .4)
-groove(8.0, b - .4, .9, slide=True)
-# 01 УЧИТЕЛЬ: piano + pad (the ordinary man), clock under diagnosis, light rhodes groove after
+drone(0, 9.0, .18); clock(.4, 9.0, .08); hitm(1.6, .4)
+groove(9.0, b - .4, .85, half=True, slide=True)
+# 01 ФАСАД: clean rhodes groove, the pleasant front
 a, b = CHR[1]; hitm(a + .1, .45)
-pad(a + .9, 24, [45, 52, 57, 60], .05, 900); motif(a + 1.5); motif(a + 9.5, .14, 7)
-clock(a + 25, a + 40); drone(a + 25, a + 40, .13)
-groove(a + 40, b - .4, .8, rh=True, kick_every=8)
-# 02 ХАЙЗЕНБЕРГ: half-time, then full groove with slides
+groove(a + .9, b - .4, .8, rh=True, kick_every=8)
+# 02 ПРАВИЛА: corporate groove; tension clock for the cousins
 a, b = CHR[2]; hitm(a + .1, .45)
-groove(a + .9, a + 30, .9, half=True); groove(a + 30, b - .4, 1.05, slide=True)
-# 03 СЕМЬЯ: warm rhodes, tension under Hank
-a, b = CHR[3]; hitm(a + .1, .45)
-groove(a + .9, a + 44, .8, rh=True, kick_every=8); groove(a + 44, b - .4, 1.0, half=True)
-# 04 ПАРТНЁР: pad + motif; drone and silence around Jane; groove after
+groove(a + .9, a + 40, .9, kick_every=4); groove(a + 40, a + 70, .85, half=True, rh=True)
+clock(a + 70, b - .3, .08); drone(a + 70, b - .3, .14)
+# 03 НОЖ: cold drone and clock, nothing warm
+a, b = CHR[3]; hitm(a + .1, .5)
+drone(a + .9, b - .3, .17); clock(a + .9, a + 20, .09); motif(a + 36, .13)
+# 04 ДВАДЦАТЬ ЛЕТ: pad + motif, drone at the pool, pad for the scholarship
 a, b = CHR[4]; hitm(a + .1, .45)
-pad(a + .9, 20, [45, 52, 57, 64], .05, 1000); motif(a + 2.0, .14)
-drone(a + 21, a + 42, .15); clock(a + 21, a + 32, .07)
-groove(a + 42, b - .4, .85, half=True, rh=True)
-# 05 ИМПЕРИЯ: driving groove, drone for Brock
+pad(a + .9, 16, [45, 52, 57, 60], .05, 900); motif(a + 2.0, .14)
+groove(a + 17, a + 30, .7, half=True, slide=True); drone(a + 30, a + 44, .17)
+pad(a + 44, b - a - 44.4, [45, 52, 57, 64], .05, 1000); motif(a + 46, .13, 7)
+# 05 МЕСТЬ: clock for the waiting, slide groove at the villa, drone for Hector
 a, b = CHR[5]; hitm(a + .1, .45)
-groove(a + .9, a + 44, 1.05, kick_every=2, slide=True); drone(a + 44, b - .3, .15); motif(a + 47, .13)
-# 06-08 dialogue chapters: sparse beds, near-silence under the inserts (see below)
+clock(a + .9, a + 9, .1); groove(a + 9, a + 30, .9, slide=True, kick_every=2)
+drone(a + 30, b - .3, .16)
+# 06 ШАХМАТЫ: driving groove, drone for Brock
 a, b = CHR[6]; hitm(a + .1, .45)
-drone(a + .9, b - .3, .13); groove(a + 40, b - .4, .95, kick_every=4)
+groove(a + .9, a + 55, 1.0, kick_every=2, rh=True); drone(a + 55, b - .3, .15); motif(a + 58, .12)
+# 07 ЛИЦО: build with clock to the blast, then a pad and the theme
 a, b = CHR[7]; hitm(a + .1, .5)
-pad(a + .9, 10, [45, 52, 57, 60, 64], .055, 1100); motif(a + 1.5, .15)
-groove(a + 12, a + 30, .85, half=True); drone(a + 30, b - .3, .16); clock(a + 30, a + 46, .08)
-a, b = CHR[8]; hitm(a + .1, .45)
-pad(a + .9, b - a - 1.3, [45, 52, 57, 64], .045, 900); motif(a + 2.0, .13); motif(a + 50, .14, 7)
-drone(a + 50, b - .3, .12)
-# 09 ВЕРДИКТ: clock under the questions, then a building groove
-a, b = CHR[9]; hitm(a + .1, .5)
-clock(a + .9, a + 14); drone(a + .9, a + 14, .14)
-groove(a + 14, b - .4, .95, rh=True, slide=True)
-# 10 outro
-a, b = CHR[10]; hitm(a + .1, .45)
+clock(a + .9, a + 22, .1); drone(a + .9, a + 22, .16)
+pad(a + 24, b - a - 24.4, [45, 52, 57, 60, 64], .05, 1100); motif(a + 26, .15)
+# 08 ВЕРДИКТ: building groove with rhodes and slides
+a, b = CHR[8]; hitm(a + .1, .5)
+groove(a + .9, a + 30, .85, half=True, rh=True); groove(a + 30, b - .4, 1.0, rh=True, slide=True)
+# 09 outro
+a, b = CHR[9]; hitm(a + .1, .45)
 groove(a + .4, b - 4.5, .9, rh=True); hitm(b - 4.4, .65)
 
 # ---------------- SFX from the scene events ----------------
@@ -143,11 +140,12 @@ def s_shot(e):
     put(sfxb, e['t'] + .02, bp(noise(.6), 300, 2000) * env(sec(.6), .001, .2), .25)
 def s_hitlow(e): put(sfxb, e['t'], thump(40, 1.6, .5), .6); put(sfxb, e['t'], hp(noise(1.2), 3500) * env(sec(1.2), .002, .4), .06, .3)
 def s_splash(e): d = 1.6; put(sfxb, e['t'], bp(noise(d), 200, 4000) * env(sec(d), .01, .35), .35); put(sfxb, e['t'], thump(60, .6, .12), .3)
+def s_slap(e): put(sfxb, e['t'], hp(noise(.12), 1500) * env(sec(.12), .0003, .02), .9); put(sfxb, e['t'], thump(70, .4, .06), .5)
 def s_bell(e):
     for h, g in [(1, 1), (2.76, .5), (5.4, .25)]: put(sfxb, e['t'], tone(1320 * h, 2.0, a=.001, d=.7), .12 * g, .3)
 H = {k[2:]: v for k, v in globals().items() if k.startswith('s_')}
 EVENTS = []
-for k in range(11):
+for k in range(10):
     a, b = CHR[k]; EVENTS += [e for e in json.load(open(f'{here}/sfx/ch{k:02d}.json')) if a - .05 <= e['t'] < b]
 for e in EVENTS:
     if e['type'] in H: H[e['type']](e)
