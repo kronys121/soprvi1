@@ -4,7 +4,10 @@ const INTRO = 1.6;                         // cold open before the first word
 const EVENTS = [
   { v: 42.44, type: 'break', ch: 1, title: 'ФАСАД' },
   { v: 117.70, type: 'break', ch: 2, title: 'ПРАВИЛА' },
+  { v: 150.34, v1: 152.30, type: 'cut', dlg: ['d_kids'] },
+  { v: 169.18, v1: 172.55, type: 'cut', dlg: ['d_man'] },
   { v: 208.03, type: 'break', ch: 3, title: 'НОЖ' },
+  { v: 240.90, v1: 243.45, type: 'cut', dlg: ['d_work'] },
   { v: 259.68, type: 'break', ch: 4, title: 'ДВАДЦАТЬ ЛЕТ' },
   { v: 315.80, type: 'break', ch: 5, title: 'МЕСТЬ' },
   { v: 376.75, type: 'break', ch: 6, title: 'ШАХМАТЫ' },
@@ -12,7 +15,7 @@ const EVENTS = [
   { v: 496.40, type: 'break', ch: 8, title: 'ВЕРДИКТ' },
   { v: 583.40, type: 'break', ch: 9, title: '' }
 ];
-const DLG = {};
+const DLG = {"d_man": 11.3, "d_kids": 7.6, "d_work": 7.2};
 const PAUSE = 1.0, GAP = .35, VOICE_END = 599.12, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
