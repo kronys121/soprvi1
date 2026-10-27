@@ -10,12 +10,14 @@ const EVENTS = [
   { v: 240.90, v1: 243.45, type: 'cut', dlg: ['d_work'] },
   { v: 259.68, type: 'break', ch: 4, title: 'ДВАДЦАТЬ ЛЕТ' },
   { v: 315.80, type: 'break', ch: 5, title: 'МЕСТЬ' },
+  { v: 368.35, v1: 368.35, type: 'cut', dlg: ['d_look'] },
   { v: 376.75, type: 'break', ch: 6, title: 'ШАХМАТЫ' },
+  { v: 390.01, v1: 394.20, type: 'cut', dlg: ['d_threat'] },
   { v: 446.57, type: 'break', ch: 7, title: 'ЛИЦО' },
   { v: 496.40, type: 'break', ch: 8, title: 'ВЕРДИКТ' },
   { v: 583.40, type: 'break', ch: 9, title: '' }
 ];
-const DLG = {"d_man": 11.3, "d_kids": 7.6, "d_work": 7.2};
+const DLG = {"d_man": 11.3, "d_kids": 7.6, "d_work": 7.2, "d_look": 17.2, "d_threat": 13.8};
 const PAUSE = 1.0, GAP = .35, VOICE_END = 599.12, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
