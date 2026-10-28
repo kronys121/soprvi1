@@ -3,18 +3,23 @@
 const INTRO = 1.6;                         // cold open before the first word
 const EVENTS = [
   { v: 38.58, type: 'break', ch: 1, title: 'УЧЕНИК' },
+  { v: 82.25, v1: 82.25, type: 'cut', dlg: ['d_leave'] },
   { v: 103.10, type: 'break', ch: 2, title: 'ЛИШНИЙ' },
+  { v: 134.90, v1: 134.90, type: 'cut', dlg: ['d_science'] },
   { v: 151.80, type: 'break', ch: 3, title: 'ДЖЕЙН' },
   { v: 221.70, type: 'break', ch: 4, title: 'ГЕЙЛ' },
   { v: 271.71, type: 'break', ch: 5, title: 'СОБАКА' },
+  { v: 327.18, v1: 327.18, type: 'cut', dlg: ['d_dog'] },
   { v: 342.00, type: 'break', ch: 6, title: 'ДЕТИ' },
   { v: 387.35, type: 'break', ch: 7, title: 'ДЕНЬГИ' },
   { v: 438.40, type: 'break', ch: 8, title: 'ЯМА' },
+  { v: 456.22, v1: 458.26, type: 'cut', dlg: ['d_jane1', 'd_jane2'] },
   { v: 493.10, type: 'break', ch: 9, title: 'СВОБОДА' },
+  { v: 512.96, v1: 512.96, type: 'cut', dlg: ['d_self', 'd_self2'] },
   { v: 554.45, type: 'break', ch: 10, title: 'ВЕРДИКТ' },
   { v: 629.50, type: 'break', ch: 11, title: '' }
 ];
-const DLG = {};
+const DLG = {"d_jane1": 3.1, "d_jane2": 5.7, "d_leave": 11.4, "d_science": 4.6, "d_dog": 16.8, "d_self": 12.1, "d_self2": 3.6};
 const PAUSE = 1.0, GAP = .35, VOICE_END = 645.96, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
