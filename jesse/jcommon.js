@@ -18,4 +18,4 @@ function mugBoard(A, src, nameTy, noTy, o = {}) {
       drawTyped(g, nameTy, t, 0, 210, `700 40px ${MONO}`, '#f0ece2', 'center'); if (noTy) drawTyped(g, noTy, t, 0, 244, `400 24px ${MONO}`, '#bdb7aa', 'center');
     } });
 }
-const TAPE_TEXT = 'СПОЙЛЕРЫ · 5 СЕЗОНОВ И «ЭЛЬ КАМИНО» · ';
+const TAPE_TEXT = 'СПОЙЛЕРЫ · ВСЕ 5 СЕЗОНОВ · ';
