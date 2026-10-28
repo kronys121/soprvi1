@@ -1,1 +1,219 @@
-{"fps": 23.976, "clips": {}, "stills": {}, "dlg": {}}
+{
+ "fps": 23.976,
+ "clips": {
+  "janedie": [
+   "s2e12.mp4",
+   2700,
+   9
+  ],
+  "jesselove": [
+   "s2e12.mp4",
+   1440,
+   5
+  ],
+  "planes": [
+   "s2e13.mp4",
+   2776,
+   5
+  ],
+  "grief": [
+   "s2e13.mp4",
+   2265,
+   6
+  ],
+  "bearpool": [
+   "s2e13.mp4",
+   2790,
+   9
+  ],
+  "gale": [
+   "s3e13.mp4",
+   2745,
+   8
+  ],
+  "lily": [
+   "s4e13.mp4",
+   2945,
+   8
+  ],
+  "janetruth": [
+   "s5e14.mp4",
+   1010,
+   9
+  ],
+  "barrels": [
+   "s5e14.mp4",
+   740,
+   6
+  ],
+  "firstcook": [
+   "s1e01.mp4",
+   2440,
+   6
+  ],
+  "rvdust": [
+   "s1e01.mp4",
+   40,
+   4
+  ],
+  "basement": [
+   "s1e03.mp4",
+   545,
+   6
+  ],
+  "d_jane1": [
+   "s5e14.mp4",
+   1049.7,
+   3.1
+  ],
+  "d_jane2": [
+   "s5e14.mp4",
+   1073.3,
+   5.7
+  ],
+  "underwear": [
+   "s1e01.mp4",
+   80,
+   4
+  ],
+  "class": [
+   "s1e01.mp4",
+   478,
+   6
+  ],
+  "krazygun": [
+   "s1e01.mp4",
+   2870,
+   5
+  ],
+  "list": [
+   "s1e03.mp4",
+   1240,
+   5
+  ],
+  "tucoboom": [
+   "s1e06.mp4",
+   2635,
+   6
+  ],
+  "moneywalk": [
+   "s1e06.mp4",
+   2760,
+   5
+  ],
+  "death": [
+   "s5e16.mp4",
+   3200,
+   10
+  ],
+  "machinegun": [
+   "s5e16.mp4",
+   2655,
+   6
+  ],
+  "kidnap": [
+   "s5e14.mp4",
+   2345,
+   6
+  ],
+  "hospital": [
+   "s4e13_p.mp4",
+   60.0,
+   10.0
+  ],
+  "gjesse": [
+   "s4e09_p.mp4",
+   2088.0,
+   14.0
+  ],
+  "gdinner": [
+   "s4e09_p.mp4",
+   2060.0,
+   8.0
+  ],
+  "gclinic": [
+   "s4e11_p.mp4",
+   528.0,
+   10.0
+  ],
+  "gsniper": [
+   "s4e09_p.mp4",
+   1432.0,
+   22.0
+  ],
+  "gcut": [
+   "s4e01_p.mp4",
+   2036.0,
+   10.0
+  ],
+  "gafter": [
+   "s4e01_p.mp4",
+   2084.0,
+   10.0
+  ],
+  "tomas": [
+   "s3e12_p.mp4",
+   2143.0,
+   7.0
+  ],
+  "gmeeting": [
+   "s3e12_p.mp4",
+   2016.0,
+   12.0
+  ],
+  "d_kids": [
+   "s3e12_p.mp4",
+   2022.6,
+   7.6
+  ],
+  "glab": [
+   "s3e05_p.mp4",
+   1412.0,
+   10.0
+  ],
+  "gsuit": [
+   "s4e01_p.mp4",
+   1931.0,
+   7.0
+  ]
+ },
+ "stills": {
+  "jesse": [
+   "none.mp4",
+   0
+  ],
+  "walthat": [
+   "none.mp4",
+   0
+  ],
+  "waltface": [
+   "none.mp4",
+   0
+  ],
+  "gus": [
+   "none.mp4",
+   0
+  ],
+  "mike": [
+   "none.mp4",
+   0
+  ],
+  "hank2": [
+   "none.mp4",
+   0
+  ],
+  "tuco": [
+   "none.mp4",
+   0
+  ],
+  "skyler2": [
+   "none.mp4",
+   0
+  ]
+ },
+ "dlg": {
+  "d_jane1": 3.1,
+  "d_jane2": 5.7,
+  "d_kids": 7.6
+ }
+}
