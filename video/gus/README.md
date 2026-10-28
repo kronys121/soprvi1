@@ -1,9 +1,11 @@
 # Досье: Гус Фринг — части ролика
 
 Полный ролик (11:03, 1080p60) порезан на 12 частей примерно по 55 секунд, без перекодирования.
-Чтобы склеить обратно:
 
-```
-for f in gus_part*.mp4; do echo "file '$f'"; done > list.txt
-ffmpeg -f concat -safe 0 -i list.txt -c copy gus_full.mp4
-```
+## Как склеить
+Нужен ffmpeg (Windows: https://www.gyan.dev/ffmpeg/builds/ — распаковать и добавить в PATH; macOS: `brew install ffmpeg`).
+
+- **Windows:** скачать папку целиком и дважды кликнуть `merge.bat`
+- **macOS / Linux:** `./merge.sh`
+
+Получится `gus_full.mp4` рядом с частями. Порядок частей задан в `list.txt`.
