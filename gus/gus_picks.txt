@@ -1,0 +1,54 @@
+# key ep t dur note
+gcar s4e13 2052 7 Gus in car, Casa Tranquila
+gwalk s4e13 2100 12 Gus walks into nursing home
+gface2 s4e13 2120 8 Gus close outside
+groom s4e13 2168 12 Gus enters Hector room
+gsit s4e13 2196 16 Gus sits, talks to Hector
+gphone s4e13 1942 8 Gus on phone in office
+gdesert s3e13 654 7 Gus close in desert
+gwide s3e13 676 9 desert wide meeting
+gsniper s4e09 1432 22 Gus walks into the open under sniper fire, scope
+gphone2 s4e09 1481 7 Gus on phone in the dark
+gjesse s4e09 2088 14 Gus dinner with Jesse, close-ups
+gdinner s4e09 2060 8 Gus and Jesse at the table, wide
+gpollos s2e11 1624 14 Gus in Pollos uniform with staff, wiping
+gtable s2e11 1680 7 Gus and Walt at Pollos table, wide
+greject s2e11 1716 12 Gus close-up refusing Walt
+goffice s3e05 1000 14 Gus office talk with Walt (provides for family)
+glaundry s3e05 1276 7 industrial laundry exterior
+glab s3e05 1412 10 superlab reveal wide
+glabgus s3e05 1560 14 Gus in the lab with Walt
+hcall s3e07 2484 10 Hank gets the anonymous call in the car
+shootout2 s3e07 2632 12 cousins attack Hank in the parking lot
+cousin s3e07 2668 8 cousin walks in with the axe
+cousins s3e07 204 9 the Salamanca cousins at the candle shrine
+gmeeting s3e12 2016 12 Gus with the dealers at the back-room table
+tomas s3e12 2143 7 Tomas, the boy on the bike
+garrive s4e01 1660 8 Gus arrives in the lab, silent
+gsuit s4e01 1931 7 Gus puts on the orange suit
+gcut s4e01 2036 10 box cutter: Gus kills Victor
+gafter s4e01 2084 10 Gus after the killing, Walt and Jesse watch
+gpollos2 s4e08 362 8 Gus at Pollos counter with staff
+gdea s4e08 414 12 Gus shakes hands with DEA agents
+ginterview s4e08 544 10 Gus questioned at the DEA
+gelevator s4e08 727 11 Gus alone in the elevator, mask off
+villa s4e08 2107 6 Eladio's villa and pool 1989
+gmax s4e08 2116 8 young Gus and Max at the table
+gyoung s4e08 2420 8 young Gus smiling, pitching
+maxshot s4e08 2618 10 Hector shoots Max
+maxpool s4e08 2676 14 Gus held down by the pool next to Max
+ghector8 s4e08 2740 12 Gus and Hector in the nursing home
+gpills s4e10 2040 8 Gus arrives at the villa, white suit, pill
+gvilla4 s4e10 2056 6 the villa pool, 2011
+gbox s4e10 2246 7 the tequila gift box
+gtoast s4e10 2258 12 the toast with Don Eladio
+collapse4 s4e10 2552 12 the cartel collapses
+gbath s4e10 2588 14 Gus vomits in the bathroom, fixes his collar
+gout s4e10 2626 10 Gus walks out to the pool
+eladiopool s4e10 2646 6 Don Eladio dead in the pool
+ghector11 s4e11 1150 16 Gus leans over Hector, tells him the cartel is gone
+hectorface s4e11 1204 8 Hector close-up, rage
+hospital s4e13 60 10 Walt and Jesse in the hospital waiting for Brock
+walthector s4e13 1052 10 Walt visits Hector at the nursing home
+hbell s4e13 1144 8 Hector in his wheelchair with the bell
+gclinic s4e11 528 10 Gus at the Mexican clinic, Jesse watches
