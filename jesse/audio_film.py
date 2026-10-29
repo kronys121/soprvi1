@@ -66,41 +66,47 @@ def hitm(t, g=.5): put(mus, t, thump(38, 2.0, .8), g); put(mus, t, piano(21, 2.5
 def motif(t0, g=.15, up=0):  # five-note theme (A minor)
     pianoline([(t0, 57 + up), (t0 + .8, 60 + up), (t0 + 1.6, 64 + up), (t0 + 2.6, 62 + up), (t0 + 3.4, 60 + up)], g)
 
-# 00 cold open: drone and clock, then a slow half-time groove; hit on the title
+# 00 cold open: piano + pad (the kid we loved), groove under the dossier
 a, b = CHR[0]
-drone(0, 9.0, .18); clock(.4, 9.0, .08); hitm(1.6, .4)
-groove(9.0, b - .4, .85, half=True, slide=True)
-# 01 ФАСАД: clean rhodes groove, the pleasant front
+pad(.4, 26, [45, 52, 57, 64], .05, 1000); motif(1.0, .14); motif(9.0, .13, 7); hitm(1.6, .35)
+groove(26.0, b - .4, .85, half=True, slide=True)
+# 01 УЧЕНИК: light rhodes groove; near-silence for the parents insert
 a, b = CHR[1]; hitm(a + .1, .45)
 groove(a + .9, b - .4, .8, rh=True, kick_every=8)
-# 02 ПРАВИЛА: corporate groove; tension clock for the cousins
+# 02 ЛИШНИЙ: playful driving groove
 a, b = CHR[2]; hitm(a + .1, .45)
-groove(a + .9, a + 40, .9, kick_every=4); groove(a + 40, a + 70, .85, half=True, rh=True)
-clock(a + 70, b - .3, .08); drone(a + 70, b - .3, .14)
-# 03 НОЖ: cold drone and clock, nothing warm
-a, b = CHR[3]; hitm(a + .1, .5)
-drone(a + .9, b - .3, .17); clock(a + .9, a + 20, .09); motif(a + 36, .13)
-# 04 ДВАДЦАТЬ ЛЕТ: pad + motif, drone at the pool, pad for the scholarship
-a, b = CHR[4]; hitm(a + .1, .45)
-pad(a + .9, 16, [45, 52, 57, 60], .05, 900); motif(a + 2.0, .14)
-groove(a + 17, a + 30, .7, half=True, slide=True); drone(a + 30, a + 44, .17)
-pad(a + 44, b - a - 44.4, [45, 52, 57, 64], .05, 1000); motif(a + 46, .13, 7)
-# 05 МЕСТЬ: clock for the waiting, slide groove at the villa, drone for Hector
+groove(a + .9, b - .4, 1.0, kick_every=2, rh=True)
+# 03 ДЖЕЙН: pad + motif, drone at her death, clock for the planes
+a, b = CHR[3]; hitm(a + .1, .45)
+pad(a + .9, 20, [45, 52, 57, 64, 69], .055, 1100); motif(a + 2, .15)
+drone(a + 21, a + 46, .16); clock(a + 46, b - .3, .08)
+# 04 ГЕЙЛ: drone + clock to the shot, pad after
+a, b = CHR[4]; hitm(a + .1, .5)
+drone(a + .9, a + 33, .17); clock(a + 16, a + 33, .1)
+pad(a + 34, b - a - 34.4, [45, 52, 57, 60], .05, 900); motif(a + 36, .13)
+# 05 СОБАКА: party groove, then sparse
 a, b = CHR[5]; hitm(a + .1, .45)
-clock(a + .9, a + 9, .1); groove(a + 9, a + 30, .9, slide=True, kick_every=2)
-drone(a + 30, b - .3, .16)
-# 06 ШАХМАТЫ: driving groove, drone for Brock
+groove(a + .9, a + 16, 1.05, kick_every=2, slide=True); drone(a + 16, a + 30, .13)
+groove(a + 30, a + 50, .85, rh=True); drone(a + 50, b - .3, .13)
+# 06 ДЕТИ: music box over a drone
 a, b = CHR[6]; hitm(a + .1, .45)
-groove(a + .9, a + 55, 1.0, kick_every=2, rh=True); drone(a + 55, b - .3, .15); motif(a + 58, .12)
-# 07 ЛИЦО: build with clock to the blast, then a pad and the theme
-a, b = CHR[7]; hitm(a + .1, .5)
-clock(a + .9, a + 22, .1); drone(a + .9, a + 22, .16)
-pad(a + 24, b - a - 24.4, [45, 52, 57, 60, 64], .05, 1100); motif(a + 26, .15)
-# 08 ВЕРДИКТ: building groove with rhodes and slides
+drone(a + .9, b - .3, .14); motif(a + 3, .12, 12); motif(a + 18, .12, 12); motif(a + 33, .12, 7)
+# 07 ДЕНЬГИ: night groove, building to the gas can
+a, b = CHR[7]; hitm(a + .1, .45)
+groove(a + .9, a + 30, .9, half=True, slide=True); groove(a + 30, b - .4, 1.05, kick_every=2)
+# 08 ЯМА: dark drone, clock
 a, b = CHR[8]; hitm(a + .1, .5)
-groove(a + .9, a + 30, .85, half=True, rh=True); groove(a + 30, b - .4, 1.0, rh=True, slide=True)
-# 09 outro
-a, b = CHR[9]; hitm(a + .1, .45)
+drone(a + .9, b - .3, .17); clock(a + 30, a + 50, .09); motif(a + 52, .12)
+# 09 СВОБОДА: pulse to the refusal, then release
+a, b = CHR[9]; hitm(a + .1, .5)
+drone(a + .9, a + 36, .15); clock(a + .9, a + 12, .1)
+groove(a + 46, b - .4, 1.0, rh=True, slide=True)
+# 10 ВЕРДИКТ: pad + motif, building groove
+a, b = CHR[10]; hitm(a + .1, .5)
+pad(a + .9, 24, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14)
+groove(a + 25, b - .4, .95, rh=True)
+# 11 outro
+a, b = CHR[11]; hitm(a + .1, .45)
 groove(a + .4, b - 4.5, .9, rh=True); hitm(b - 4.4, .65)
 
 # ---------------- SFX from the scene events ----------------
@@ -141,6 +147,9 @@ def s_shot(e):
 def s_hitlow(e): put(sfxb, e['t'], thump(40, 1.6, .5), .6); put(sfxb, e['t'], hp(noise(1.2), 3500) * env(sec(1.2), .002, .4), .06, .3)
 def s_splash(e): d = 1.6; put(sfxb, e['t'], bp(noise(d), 200, 4000) * env(sec(d), .01, .35), .35); put(sfxb, e['t'], thump(60, .6, .12), .3)
 def s_slap(e): put(sfxb, e['t'], hp(noise(.12), 1500) * env(sec(.12), .0003, .02), .9); put(sfxb, e['t'], thump(70, .4, .06), .5)
+def s_crash(e):
+    put(sfxb, e['t'], thump(45, 1.5, .4), 1.0); put(sfxb, e['t'], hp(noise(1.0), 1200) * env(sec(1.0), .001, .25), .45)
+    for k in range(8): put(sfxb, e['t'] + .05 + k * .06, hp(noise(.08), 3000) * env(sec(.08), .0005, .03), .2, rs.uniform(-.6, .6))
 def s_bell(e):
     for h, g in [(1, 1), (2.76, .5), (5.4, .25)]: put(sfxb, e['t'], tone(1320 * h, 2.0, a=.001, d=.7), .12 * g, .3)
 H = {k[2:]: v for k, v in globals().items() if k.startswith('s_')}
