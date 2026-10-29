@@ -36,7 +36,7 @@ while True:
     size -= 6
 tw, th = b[2] - b[0], b[3] - b[1]
 txt = Image.new('L', (W, H), 0); d = ImageDraw.Draw(txt)
-cx = W / 2 if side == 'center' else (W * .75 if side == 'right' else W * .25)
+cx = W / 2 if side == 'center' else (W * .77 if side == 'right' else W * .23)
 d.text((cx - tw / 2 - b[0], H * ty - th / 2 - b[1]), word, font=f, fill=255)
 # paper texture on the letters
 rng = np.random.default_rng(3); noise = rng.normal(0, 1, (H // 2, W // 2)).astype(np.float32)
