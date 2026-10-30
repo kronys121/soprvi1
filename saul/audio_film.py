@@ -15,7 +15,7 @@ f, bp, lp, hp, env, tone, noise, reverb, piano, rhodes, typeclick, thump, whoosh
 
 TL = json.loads(subprocess.run(['node', '-e', "const t=require('./timeline.js'); console.log(JSON.stringify({p: t.PIECES, d: t.DLGT, end: t.FILM_END, r: [...Array(16).keys()].map(k => t.chRange(k))}))"],
                                capture_output=True, text=True, cwd=here).stdout)
-DUR = TL['end']; N = int(SR * DUR); CHR = TL['r']
+DUR = TL['end']; N = int(SR * DUR); CHR = TL['r']; DLGT = TL['d']
 def buf(): return np.zeros((2, N))
 def put(b, t0, sig, gain=1.0, pan=0.0):
     i = int(round(t0 * SR))
@@ -66,47 +66,65 @@ def hitm(t, g=.5): put(mus, t, thump(38, 2.0, .8), g); put(mus, t, piano(21, 2.5
 def motif(t0, g=.15, up=0):  # five-note theme (A minor)
     pianoline([(t0, 57 + up), (t0 + .8, 60 + up), (t0 + 1.6, 64 + up), (t0 + 2.6, 62 + up), (t0 + 3.4, 60 + up)], g)
 
-# 00 cold open: piano + pad (the kid we loved), groove under the dossier
+# 00 cold open: piano + pad, then the slick groove under the dossier
 a, b = CHR[0]
-pad(.4, 26, [45, 52, 57, 64], .05, 1000); motif(1.0, .14); motif(9.0, .13, 7); hitm(1.6, .35)
-groove(26.0, b - .4, .85, half=True, slide=True)
-# 01 УЧЕНИК: light rhodes groove; near-silence for the parents insert
+pad(.4, 24, [45, 52, 57, 64], .05, 1000); motif(1.0, .14); motif(9.0, .13, 7); hitm(1.6, .35)
+groove(24.0, b - .4, .9, rh=True, slide=True)
+# 01 ВОЛКИ И ОВЦЫ: soft rhodes groove, drone at the till
 a, b = CHR[1]; hitm(a + .1, .45)
-groove(a + .9, b - .4, .8, rh=True, kick_every=8)
-# 02 ЛИШНИЙ: playful driving groove
+groove(a + .9, a + 30, .8, rh=True, kick_every=8); drone(a + 30, b - .3, .14); motif(a + 46, .12)
+# 02 СКОЛЬЗКИЙ ДЖИММИ: playful driving groove
 a, b = CHR[2]; hitm(a + .1, .45)
-groove(a + .9, b - .4, 1.0, kick_every=2, rh=True)
-# 03 ДЖЕЙН: pad + motif, drone at her death, clock for the planes
+groove(a + .9, b - .4, 1.05, kick_every=2, rh=True, slide=True)
+# 03 БРАТ: pad + motif, drone under the chimp insert, clock after
 a, b = CHR[3]; hitm(a + .1, .45)
-pad(a + .9, 20, [45, 52, 57, 64, 69], .055, 1100); motif(a + 2, .15)
-drone(a + 21, a + 46, .16); clock(a + 46, b - .3, .08)
-# 04 ГЕЙЛ: drone + clock to the shot, pad after
-a, b = CHR[4]; hitm(a + .1, .5)
-drone(a + .9, a + 33, .17); clock(a + 16, a + 33, .1)
-pad(a + 34, b - a - 34.4, [45, 52, 57, 60], .05, 900); motif(a + 36, .13)
-# 05 СОБАКА: party groove, then sparse
+pad(a + .9, 34, [45, 52, 57, 64, 69], .055, 1100); motif(a + 2, .15)
+groove(a + 36, a + 54, .75, half=True); drone(a + 54, b - .3, .15); clock(a + 74, b - .3, .08)
+# 04 ПОЧТОВАЯ КОМНАТА: hopeful half-time groove
+a, b = CHR[4]; hitm(a + .1, .45)
+groove(a + .9, a + 46, .85, half=True, rh=True); pad(a + 46, b - a - 46.4, [45, 52, 57, 60], .05, 900); motif(a + 48, .13)
+# 05 КИМ: warm groove for the con, pad at the end
 a, b = CHR[5]; hitm(a + .1, .45)
-groove(a + .9, a + 16, 1.05, kick_every=2, slide=True); drone(a + 16, a + 30, .13)
-groove(a + 30, a + 50, .85, rh=True); drone(a + 50, b - .3, .13)
-# 06 ДЕТИ: music box over a drone
+pad(a + .9, 18, [45, 52, 57, 64], .05, 1000); groove(a + 18, a + 54, .95, rh=True, slide=True)
+pad(a + 54, b - a - 54.4, [45, 52, 57, 60], .055, 900); motif(a + 56, .13)
+# 06 1261: night groove for the forgery, clock for the trap, drone for the hearing
 a, b = CHR[6]; hitm(a + .1, .45)
-drone(a + .9, b - .3, .14); motif(a + 3, .12, 12); motif(a + 18, .12, 12); motif(a + 33, .12, 7)
-# 07 ДЕНЬГИ: night groove, building to the gas can
-a, b = CHR[7]; hitm(a + .1, .45)
-groove(a + .9, a + 30, .9, half=True, slide=True); groove(a + 30, b - .4, 1.05, kick_every=2)
-# 08 ЯМА: dark drone, clock
-a, b = CHR[8]; hitm(a + .1, .5)
-drone(a + .9, b - .3, .17); clock(a + 30, a + 50, .09); motif(a + 52, .12)
-# 09 СВОБОДА: pulse to the refusal, then release
+groove(a + .9, a + 30, .9, half=True, slide=True); clock(a + 30, a + 56, .09); drone(a + 30, b - .3, .15)
+hitm(DLGT['d_battery'] + 26.5, .5); motif(DLGT['d_battery'] + 28, .12)
+# 07 ФОНАРЬ: cold drone, motif after the lantern
+a, b = CHR[7]; hitm(a + .1, .5)
+drone(a + .9, b - .3, .17); clock(a + 30, a + 50, .08); motif(a + 52, .12); motif(b - 10, .11, 7)
+# 08 ВСЁ ХОРОШО: pad for the letter, the slick groove kicks in with the new name
+a, b = CHR[8]; hitm(a + .1, .45)
+pad(a + .9, 28, [45, 52, 57, 64], .05, 1000); motif(a + 2, .13)
+drone(a + 29, DLGT['d_sall'] + 15.8, .13); hitm(DLGT['d_sall'] + 15.9, .55)
+groove(DLGT['d_sall'] + 16.2, b - .4, 1.0, kick_every=2, rh=True, slide=True)
+# 09 ПУСТЫНЯ: dry drone and clock; motif under Mike's lesson
 a, b = CHR[9]; hitm(a + .1, .5)
-drone(a + .9, a + 36, .15); clock(a + .9, a + 12, .1)
-groove(a + 46, b - .4, 1.0, rh=True, slide=True)
-# 10 ВЕРДИКТ: pad + motif, building groove
-a, b = CHR[10]; hitm(a + .1, .5)
-pad(a + .9, 24, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14)
-groove(a + 25, b - .4, .95, rh=True)
-# 11 outro
+groove(a + .9, a + 16, .8, half=True); drone(a + 16, b - .3, .17); clock(a + 16, DLGT['d_desert'], .1)
+motif(DLGT['d_desert'] + 20.3, .13); pad(DLGT['d_desert'] + 20, 14, [45, 52, 57, 60], .045, 800)
+# 10 ХОВАРД: playful groove for the con, drone to the shot, pad after Kim leaves
+a, b = CHR[10]; hitm(a + .1, .45)
+groove(a + .9, a + 36, .9, rh=True, slide=True); drone(a + 36, DLGT['d_poison'] + 12, .16); clock(a + 36, DLGT['d_howard'], .1)
+pad(DLGT['d_poison'] + 12, 20, [45, 52, 57, 60], .05, 900); motif(DLGT['d_poison'] + 13, .13)
+groove(DLGT['d_poison'] + 34, b - .4, .9, kick_every=2, rh=True)
+# 11 ДЖИН: grey drone + music box, clock for the cons
 a, b = CHR[11]; hitm(a + .1, .45)
+drone(a + .9, b - .3, .14); motif(a + 3, .12, 12); motif(a + 18, .12, 12); clock(a + 32, b - .3, .09)
+# 12 МАШИНА ВРЕМЕНИ: pad + motif, drone through the flashbacks
+a, b = CHR[12]; hitm(a + .1, .5)
+pad(a + .9, 22, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14); drone(a + 22, b - .3, .14); motif(b - 12, .12, 7)
+# 13 86 ЛЕТ: pulse for the deal, drone for the court, pad for the cigarette
+a, b = CHR[13]; hitm(a + .1, .5)
+groove(a + .9, a + 24, .9, kick_every=2, rh=True); drone(a + 24, DLGT['d_name'] + 5, .15); clock(a + 34, DLGT['d_name'], .09)
+hitm(DLGT['d_name'] + 5, .55); pad(DLGT['d_name'] + 5.3, b - DLGT['d_name'] - 5.6, [45, 52, 57, 64, 69], .055, 1100)
+motif(DLGT['d_name'] + 7, .14); motif(b - 14, .13, 7)
+# 14 ВЕРДИКТ: pad + motif, building groove to the happy end
+a, b = CHR[14]; hitm(a + .1, .5)
+pad(a + .9, 26, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14)
+groove(a + 27, b - .4, .95, rh=True)
+# 15 outro
+a, b = CHR[15]; hitm(a + .1, .45)
 groove(a + .4, b - 4.5, .9, rh=True); hitm(b - 4.4, .65)
 
 # ---------------- SFX from the scene events ----------------
