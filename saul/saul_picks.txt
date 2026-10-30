@@ -50,3 +50,6 @@ urine s05e08 2480 10 Saul drinks from the canteen (urine)
 candle s06e07 2600 12 candlelit apartment, Jimmy and Kim
 howard s06e07 2760 14 Howard confronts Jimmy and Kim at their apartment
 lalo s06e07 2900 10 Lalo appears behind Howard, the shot
+memorial s06e09 2132 12 Howard's memorial at HHM, Jimmy and Kim
+cheryl s06e09 2200 10 Cheryl Hamlin confronts them
+breakup s06e09 2720 14 Kim tells Jimmy she is leaving
