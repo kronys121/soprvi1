@@ -36,3 +36,7 @@ inflatable s02e07 960 10 the wacky inflatable tube man
 suits s02e07 924 10 Jimmy's loud colourful suits at Davis & Main
 dmquit s02e07 1252 10 Jimmy in the loud suit, the boss gives up on him
 dmmeet s02e02 1900 10 Jimmy at the Davis & Main conference table
+mombed s02e10 20 14 flashback: Jimmy and Chuck at their dying mother's bed
+momcalls s02e10 176 10 mother calls "Jimmy" while Chuck is there
+confess s02e10 2660 14 Jimmy confesses to Chuck in the foil-lined house
+recorder s02e10 2840 10 the hidden tape recorder
