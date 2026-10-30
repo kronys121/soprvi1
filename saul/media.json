@@ -502,7 +502,40 @@
    13.0
   ]
  },
- "stills": {},
+ "stills": {
+  "walthat": [
+   "none.mp4",
+   0
+  ],
+  "waltface": [
+   "none.mp4",
+   0
+  ],
+  "gus": [
+   "none.mp4",
+   0
+  ],
+  "mike": [
+   "none.mp4",
+   0
+  ],
+  "jesse": [
+   "none.mp4",
+   0
+  ],
+  "jimmyname": [
+   "none.mp4",
+   0
+  ],
+  "saulface": [
+   "none.mp4",
+   0
+  ],
+  "tubeman": [
+   "none.mp4",
+   0
+  ]
+ },
  "dlg": {
   "d_chimp": 15.4,
   "d_wolves": 10.8,
