@@ -40,3 +40,13 @@ mombed s02e10 20 14 flashback: Jimmy and Chuck at their dying mother's bed
 momcalls s02e10 176 10 mother calls "Jimmy" while Chuck is there
 confess s02e10 2660 14 Jimmy confesses to Chuck in the foil-lined house
 recorder s02e10 2840 10 the hidden tape recorder
+ambush s05e08 1040 12 the desert ambush, gunfire
+mikesave s05e08 1220 12 Mike in the hat, Saul crying
+walk s05e08 1524 14 Saul walks the desert with the money bags
+tree s05e08 1616 14 Saul and Mike under the tree
+crawl s05e08 1784 12 Saul crawling, exhausted
+sun s05e08 2356 10 Saul under the sun, the bags
+urine s05e08 2480 10 Saul drinks from the canteen (urine)
+candle s06e07 2600 12 candlelit apartment, Jimmy and Kim
+howard s06e07 2760 14 Howard confronts Jimmy and Kim at their apartment
+lalo s06e07 2900 10 Lalo appears behind Howard, the shot
