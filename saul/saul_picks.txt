@@ -83,3 +83,9 @@ wells s06e13 3556 6 Chuck holding The Time Machine
 bus s06e13 3636 12 prison bus, Saul recognised, b&w
 cigarette s06e13 3904 16 Jimmy and Kim share a cigarette in prison, b&w
 finger s06e13 4060 10 Jimmy points finger guns as Kim leaves, b&w
+hearing s03e05 1824 12 the bar hearing, Chuck on the stand
+pocket s03e05 2720 12 Chuck finds the battery in his pocket
+chuckbreak s03e05 2770 12 Chuck breaks down in front of everyone
+lastvisit s03e10 1440 14 Jimmy's last visit, Chuck cold in the lamplight
+lantern s03e10 3270 14 Chuck alone with the lantern, kicks it
+fire s03e10 3300 14 Chuck's face, the house burning
