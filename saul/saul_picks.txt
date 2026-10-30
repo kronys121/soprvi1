@@ -30,3 +30,9 @@ genesg s02e01 300 8 "SG was here" scratched on the wall
 pool s02e01 1004 10 Jimmy floating in the pool, quit everything
 kencon s02e01 1424 14 Jimmy and Kim con Ken in the bar
 kimlaugh s02e01 1696 10 Kim and Jimmy laughing after the con
+dadstore s02e07 120 12 young Jimmy, his father and the grifter at the store
+register s02e07 296 14 young Jimmy alone with the till, takes the money
+inflatable s02e07 960 10 the wacky inflatable tube man
+suits s02e07 924 10 Jimmy's loud colourful suits at Davis & Main
+dmquit s02e07 1252 10 Jimmy in the loud suit, the boss gives up on him
+dmmeet s02e02 1900 10 Jimmy at the Davis & Main conference table
