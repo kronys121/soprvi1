@@ -66,3 +66,20 @@ genephone s06e12 2860 12 Gene on the payphone, b&w
 divorce s06e12 100 14 Jimmy signs the divorce papers, the last colour Saul
 kimoffice s06e12 520 12 Kim at the sprinkler company, b&w
 kimwork s06e12 568 10 Kim in the office, empty face, b&w
+mikewell s06e13 104 14 Mike and Saul at the desert well, "time machine?"
+genechase s06e13 396 12 Gene runs from the police, b&w
+dumpster s06e13 540 10 Gene hidden in the dumpster, b&w
+cell s06e13 756 12 Gene in the holding cell, b&w
+deal s06e13 1164 12 Saul negotiates the deal with the prosecutors, b&w
+dealwin s06e13 1600 10 the deal: seven years, Saul smug, b&w
+walterbunker s06e13 1800 14 flashback: Saul and Walter in the vacuum-repair basement
+kimtells2 s06e13 2440 10 Kim in Florida, the legal-aid office, b&w
+courtroom s06e13 2780 12 the courtroom, Saul enters, Kim in the gallery, b&w
+saultalk s06e13 3140 14 Saul confesses in court, b&w
+saulname s06e13 3216 14 Saul at the lectern, confessing about Chuck, b&w
+kimcourt s06e13 3264 8 Kim listening in the gallery, b&w
+chucklast s06e13 3500 14 flashback: Chuck and Jimmy, the last scene, lamplight
+wells s06e13 3556 6 Chuck holding The Time Machine
+bus s06e13 3636 12 prison bus, Saul recognised, b&w
+cigarette s06e13 3904 16 Jimmy and Kim share a cigarette in prison, b&w
+finger s06e13 4060 10 Jimmy points finger guns as Kim leaves, b&w
