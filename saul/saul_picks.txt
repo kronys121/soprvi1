@@ -89,3 +89,11 @@ chuckbreak s03e05 2770 12 Chuck breaks down in front of everyone
 lastvisit s03e10 1440 14 Jimmy's last visit, Chuck cold in the lamplight
 lantern s03e10 3270 14 Chuck alone with the lantern, kicks it
 fire s03e10 3300 14 Chuck's face, the house burning
+funeral4 s04e01 2564 14 Chuck's funeral, the church full of lawyers
+howardconf s04e01 2716 14 Howard confesses at night, arm in a sling
+jimmyfish s04e01 2834 10 Jimmy at the fish tank after "your cross"
+speech4 s04e10 3404 14 the reinstatement hearing, Jimmy's speech about his brother
+letterread s04e10 3448 10 Jimmy holds Chuck's letter at the hearing
+kimhear s04e10 3460 5 Kim watches the speech
+hallway s04e10 3496 12 the hallway after the hearing, Jimmy elated
+kimhorror s04e10 3556 6 Kim stunned in the hallway

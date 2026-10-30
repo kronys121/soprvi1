@@ -13,7 +13,10 @@ const EVENTS = [
   { v: 493.38, v1: 493.38, type: 'cut', dlg: ['d_battery'] },
   { v: 499.48, type: 'break', ch: 7, title: 'ФОНАРЬ' },
   { v: 510.05, v1: 513.20, type: 'cut', dlg: ['d_meant'] },
+  { v: 552.55, v1: 554.60, type: 'cut', dlg: ['d_cross'] },
   { v: 563.57, type: 'break', ch: 8, title: 'ВСЁ ХОРОШО' },
+  { v: 590.95, v1: 590.95, type: 'cut', dlg: ['d_jazz'] },
+  { v: 601.20, v1: 602.45, type: 'cut', dlg: ['d_sall'] },
   { v: 636.82, type: 'break', ch: 9, title: 'ПУСТЫНЯ' },
   { v: 663.95, v1: 663.95, type: 'cut', dlg: ['d_desert'] },
   { v: 690.65, type: 'break', ch: 10, title: 'ХОВАРД' },
@@ -28,7 +31,7 @@ const EVENTS = [
   { v: 982.60, type: 'break', ch: 14, title: 'ВЕРДИКТ' },
   { v: 1068.90, type: 'break', ch: 15, title: '' }
 ];
-const DLG = {"d_chimp": 15.4, "d_wolves": 10.8, "d_desert": 19.8, "d_howard": 24.9, "d_poison": 11.7, "d_name": 4.8, "d_chucktrail": 10.8, "d_regret": 18.9, "d_battery": 26.2, "d_meant": 13.0};
+const DLG = {"d_chimp": 15.4, "d_wolves": 10.8, "d_desert": 19.8, "d_howard": 24.9, "d_poison": 11.7, "d_name": 4.8, "d_chucktrail": 10.8, "d_regret": 18.9, "d_battery": 26.2, "d_meant": 13.0, "d_cross": 3.7, "d_jazz": 12.2, "d_sall": 15.8};
 const PAUSE = 1.0, GAP = .35, VOICE_END = 1091.74, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
