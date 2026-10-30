@@ -3,22 +3,32 @@
 const INTRO = 1.6;                         // cold open before the first word
 const EVENTS = [
   { v: 63.55, type: 'break', ch: 1, title: 'ВОЛКИ И ОВЦЫ' },
+  { v: 95.69, v1: 95.69, type: 'cut', dlg: ['d_wolves'] },
   { v: 123.25, type: 'break', ch: 2, title: 'СКОЛЬЗКИЙ ДЖИММИ' },
   { v: 179.60, type: 'break', ch: 3, title: 'БРАТ' },
+  { v: 237.95, v1: 248.35, type: 'cut', dlg: ['d_chimp'] },
   { v: 265.50, type: 'break', ch: 4, title: 'ПОЧТОВАЯ КОМНАТА' },
   { v: 339.36, type: 'break', ch: 5, title: 'КИМ' },
   { v: 411.07, type: 'break', ch: 6, title: '1261' },
+  { v: 493.38, v1: 493.38, type: 'cut', dlg: ['d_battery'] },
   { v: 499.48, type: 'break', ch: 7, title: 'ФОНАРЬ' },
+  { v: 510.05, v1: 513.20, type: 'cut', dlg: ['d_meant'] },
   { v: 563.57, type: 'break', ch: 8, title: 'ВСЁ ХОРОШО' },
   { v: 636.82, type: 'break', ch: 9, title: 'ПУСТЫНЯ' },
+  { v: 663.95, v1: 663.95, type: 'cut', dlg: ['d_desert'] },
   { v: 690.65, type: 'break', ch: 10, title: 'ХОВАРД' },
+  { v: 727.80, v1: 733.10, type: 'cut', dlg: ['d_howard'] },
+  { v: 750.60, v1: 750.60, type: 'cut', dlg: ['d_poison'] },
   { v: 785.60, type: 'break', ch: 11, title: 'ДЖИН' },
   { v: 842.81, type: 'break', ch: 12, title: 'МАШИНА ВРЕМЕНИ' },
+  { v: 868.31, v1: 868.31, type: 'cut', dlg: ['d_regret'] },
+  { v: 884.50, v1: 889.70, type: 'cut', dlg: ['d_chucktrail'] },
   { v: 894.63, type: 'break', ch: 13, title: '86 ЛЕТ' },
+  { v: 950.00, v1: 952.40, type: 'cut', dlg: ['d_name'] },
   { v: 982.60, type: 'break', ch: 14, title: 'ВЕРДИКТ' },
   { v: 1068.90, type: 'break', ch: 15, title: '' }
 ];
-const DLG = {};
+const DLG = {"d_chimp": 15.4, "d_wolves": 10.8, "d_desert": 19.8, "d_howard": 24.9, "d_poison": 11.7, "d_name": 4.8, "d_chucktrail": 10.8, "d_regret": 18.9, "d_battery": 26.2, "d_meant": 13.0};
 const PAUSE = 1.0, GAP = .35, VOICE_END = 1091.74, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
