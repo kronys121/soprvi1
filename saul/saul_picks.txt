@@ -61,3 +61,8 @@ phonebooth s06e11 556 12 Gene calls Kim from a phone booth, b&w
 kimphone s06e11 600 10 Kim on the phone, b&w
 genebar s06e11 1300 12 Gene at a bar with a lonely mark, b&w
 genenight s06e11 1740 12 Gene breaks into the house at night, b&w
+marion s06e12 3260 14 Gene and Marion in her kitchen, she finds out who he is
+genephone s06e12 2860 12 Gene on the payphone, b&w
+divorce s06e12 100 14 Jimmy signs the divorce papers, the last colour Saul
+kimoffice s06e12 520 12 Kim at the sprinkler company, b&w
+kimwork s06e12 568 10 Kim in the office, empty face, b&w
