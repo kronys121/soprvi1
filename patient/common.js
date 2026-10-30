@@ -26,7 +26,7 @@ function divider(A, num, title, t0) {
   const f = item({ draw: drawFolder, x: A[0], y: A[1], w: 1200, h: 760, rot: -.015, order: 5, tIn: t0 - .1, enter: 'none', tab: `ГЛАВА ${String(num).padStart(2, '0')}`,
     text: (g, t, it) => {
       g.fillStyle = 'rgba(40,25,10,.8)'; g.font = `400 30px ${MONO}`; g.textAlign = 'center'; g.fillText(typeof CASE_LABEL !== 'undefined' ? CASE_LABEL : 'ДЕЛО № 1999 · Т. СОПРАНО', 0, -250);
-      const size = title.length > 10 ? 112 : title.length > 7 ? 140 : 170; g.font = `800 ${size}px ${SANS}`; g.textBaseline = 'middle'; g.letterSpacing = '10px';
+      const size = title.length > 14 ? 88 : title.length > 10 ? 112 : title.length > 7 ? 140 : 170; g.font = `800 ${size}px ${SANS}`; g.textBaseline = 'middle'; g.letterSpacing = '10px';
       const total = g.measureText(title).width; let x = -total / 2;
       [...title].forEach((c, k) => { const w = g.measureText(c).width + 10, ts = t0 + .25 + k * .06, p = eout5(prog(t, ts, ts + .35)); if (p > 0) { g.save(); g.translate(x + w / 2, 40 + (1 - p) * 70); g.rotate((1 - p) * (k % 2 ? .25 : -.2)); g.globalAlpha *= clamp(p * 2); g.fillStyle = INK; g.textAlign = 'center'; g.fillText(c, 0, 0); g.restore(); } x += w; });
       g.letterSpacing = '0px'; drawStamp(g, it.s, t);
