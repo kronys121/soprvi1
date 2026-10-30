@@ -53,3 +53,11 @@ lalo s06e07 2900 10 Lalo appears behind Howard, the shot
 memorial s06e09 2132 12 Howard's memorial at HHM, Jimmy and Kim
 cheryl s06e09 2200 10 Cheryl Hamlin confronts them
 breakup s06e09 2720 14 Kim tells Jimmy she is leaving
+geneomaha s06e10 184 10 Gene in Omaha snow, b&w
+genecon s06e10 1356 12 Gene runs the department-store con, b&w
+genesnow s06e10 1536 12 Gene in the snowy lot with Jeff, b&w
+kimflorida s06e11 288 10 Kim in Florida, b&w, driving
+phonebooth s06e11 556 12 Gene calls Kim from a phone booth, b&w
+kimphone s06e11 600 10 Kim on the phone, b&w
+genebar s06e11 1300 12 Gene at a bar with a lonely mark, b&w
+genenight s06e11 1740 12 Gene breaks into the house at night, b&w
