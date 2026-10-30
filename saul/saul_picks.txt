@@ -1,0 +1,32 @@
+# key ep t dur note
+cinnabon s01e01 40 12 Gene at Cinnabon, black-and-white
+genetape s01e01 320 14 Gene alone watching his old ads, crying
+court1 s01e01 508 12 Jimmy pleads in court, public defender
+jimmycar s01e01 800 10 Jimmy in the yellow car, parking lot
+mikebooth s01e01 880 8 Mike in the parking booth
+skate s01e01 1164 16 Jimmy and the skateboard twins, fake accident
+backroom s01e01 1352 10 Jimmy's back-room office in the nail salon
+hhm s01e01 1500 12 HHM conference room, Howard and Kim
+chuckdark s01e01 2020 14 Chuck's dark house, lantern, Jimmy and Chuck
+chuckface s01e01 2140 8 Chuck close, lamplight
+pimento s01e09 2440 12 Jimmy confronts Chuck in the dark living room
+chuckcold s01e09 2596 10 Chuck close, cold, "people don't change"
+jimmybroke s01e09 2684 12 Jimmy breaks, close
+kimtells s01e09 2190 10 Kim at night, the truth about HHM
+marcobar s01e10 124 12 Cicero bar flashback, Jimmy and Marco
+bingo s01e10 600 14 Jimmy calls bingo, breaks down about Chicago
+cicero s01e10 1336 14 Jimmy and Marco run a con in a Cicero bar
+coin s01e10 1398 6 the "rare" coin
+marcodie s01e10 2352 10 Marco dies in the alley
+funeral s01e10 2424 10 Jimmy at Marco's funeral, ring
+chuckfoil s02e09 1124 12 Chuck under the foil blanket, Kim and Jimmy
+mesahear s02e09 400 12 Mesa Verde hearing, Chuck exposed as careless
+copyshop s02e09 2496 12 Jimmy bribes the copy-shop clerk
+chuckshop s02e09 2768 12 Chuck at the copy shop, interrogating the clerk
+chuckfall s02e09 2872 10 Chuck collapses, hits his head
+kimbed s02e09 2284 10 Kim and Jimmy in bed, she knows
+genetrap s02e01 196 14 Gene trapped in the mall garbage room, b&w
+genesg s02e01 300 8 "SG was here" scratched on the wall
+pool s02e01 1004 10 Jimmy floating in the pool, quit everything
+kencon s02e01 1424 14 Jimmy and Kim con Ken in the bar
+kimlaugh s02e01 1696 10 Kim and Jimmy laughing after the con
