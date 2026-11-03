@@ -1,0 +1,579 @@
+{
+ "fps": 23.976,
+ "clips": {
+  "hankarrive": [
+   "s2e02_p.mp4",
+   2680.0,
+   10.0
+  ],
+  "tucorifle": [
+   "s2e02_p.mp4",
+   2736.0,
+   8.0
+  ],
+  "hankaim": [
+   "s2e02_p.mp4",
+   2768.0,
+   10.0
+  ],
+  "tucodead": [
+   "s2e02_p.mp4",
+   2812.0,
+   12.0
+  ],
+  "hankoffice": [
+   "s2e05_p.mp4",
+   556.0,
+   12.0
+  ],
+  "elevator": [
+   "s2e05_p.mp4",
+   680.0,
+   14.0
+  ],
+  "river": [
+   "s2e05_p.mp4",
+   2752.0,
+   14.0
+  ],
+  "grillthrow": [
+   "s2e05_p.mp4",
+   2776.0,
+   14.0
+  ],
+  "elpaso": [
+   "s2e07_p.mp4",
+   2164.0,
+   12.0
+  ],
+  "turtle": [
+   "s2e07_p.mp4",
+   2264.0,
+   10.0
+  ],
+  "explosion": [
+   "s2e07_p.mp4",
+   2304.0,
+   10.0
+  ],
+  "hankshock": [
+   "s2e07_p.mp4",
+   2328.0,
+   14.0
+  ],
+  "rvjunk": [
+   "s3e06_p.mp4",
+   2044.0,
+   10.0
+  ],
+  "hankrv": [
+   "s3e06_p.mp4",
+   2068.0,
+   12.0
+  ],
+  "rvknock": [
+   "s3e06_p.mp4",
+   2140.0,
+   10.0
+  ],
+  "hankphone": [
+   "s3e06_p.mp4",
+   2452.0,
+   12.0
+  ],
+  "hospital": [
+   "s3e06_p.mp4",
+   2532.0,
+   14.0
+  ],
+  "beating": [
+   "s3e07_p.mp4",
+   280.0,
+   14.0
+  ],
+  "hankcar": [
+   "s3e07_p.mp4",
+   360.0,
+   12.0
+  ],
+  "jessehosp": [
+   "s3e07_p.mp4",
+   2108.0,
+   10.0
+  ],
+  "hearingdea": [
+   "s3e07_p.mp4",
+   2300.0,
+   12.0
+  ],
+  "badge": [
+   "s3e07_p.mp4",
+   2360.0,
+   8.0
+  ],
+  "hankcall": [
+   "s3e07_p.mp4",
+   2480.0,
+   12.0
+  ],
+  "mirror": [
+   "s3e07_p.mp4",
+   2600.0,
+   6.0
+  ],
+  "cousins": [
+   "s3e07_p.mp4",
+   2604.0,
+   14.0
+  ],
+  "axe": [
+   "s3e07_p.mp4",
+   2732.0,
+   10.0
+  ],
+  "bullet": [
+   "s3e07_p.mp4",
+   2748.0,
+   8.0
+  ],
+  "shot": [
+   "s3e07_p.mp4",
+   2768.0,
+   12.0
+  ],
+  "poolparty": [
+   "s5e08_p.mp4",
+   2628.0,
+   12.0
+  ],
+  "hanktoilet": [
+   "s5e08_p.mp4",
+   2716.0,
+   12.0
+  ],
+  "bookcover": [
+   "s5e08_p.mp4",
+   2744.0,
+   6.0
+  ],
+  "inscription": [
+   "s5e08_p.mp4",
+   2760.0,
+   10.0
+  ],
+  "hankrealize": [
+   "s5e08_p.mp4",
+   2776.0,
+   14.0
+  ],
+  "garagedoor": [
+   "s5e09_p.mp4",
+   2440.0,
+   10.0
+  ],
+  "tracker": [
+   "s5e09_p.mp4",
+   2508.0,
+   10.0
+  ],
+  "punch": [
+   "s5e09_p.mp4",
+   2608.0,
+   10.0
+  ],
+  "garagewalt": [
+   "s5e09_p.mp4",
+   2664.0,
+   12.0
+  ],
+  "garagehank": [
+   "s5e09_p.mp4",
+   2748.0,
+   12.0
+  ],
+  "familywait": [
+   "s3e08_p.mp4",
+   1452.0,
+   12.0
+  ],
+  "dealobby": [
+   "s3e08_p.mp4",
+   1528.0,
+   12.0
+  ],
+  "rehab": [
+   "s3e11_p.mp4",
+   248.0,
+   12.0
+  ],
+  "hankrehab": [
+   "s3e11_p.mp4",
+   272.0,
+   10.0
+  ],
+  "mineralbox": [
+   "s4e02_p.mp4",
+   1960.0,
+   10.0
+  ],
+  "mineralnight": [
+   "s4e02_p.mp4",
+   846.0,
+   10.0
+  ],
+  "notebook": [
+   "s4e04_p.mp4",
+   1292.0,
+   8.0
+  ],
+  "wwscene": [
+   "s4e04_p.mp4",
+   1376.0,
+   16.0
+  ],
+  "dinner": [
+   "s4e05_p.mp4",
+   2600.0,
+   14.0
+  ],
+  "hankdinner": [
+   "s4e05_p.mp4",
+   2660.0,
+   8.0
+  ],
+  "hanknotes": [
+   "s4e05_p.mp4",
+   2756.0,
+   8.0
+  ],
+  "napkin": [
+   "s4e05_p.mp4",
+   2776.0,
+   10.0
+  ],
+  "gusdea": [
+   "s4e08_p.mp4",
+   496.0,
+   12.0
+  ],
+  "hankgus": [
+   "s4e08_p.mp4",
+   560.0,
+   10.0
+  ],
+  "gusface": [
+   "s4e08_p.mp4",
+   728.0,
+   8.0
+  ],
+  "hankboard": [
+   "s4e08_p.mp4",
+   788.0,
+   10.0
+  ],
+  "cartracker": [
+   "s4e08_p.mp4",
+   1300.0,
+   14.0
+  ],
+  "restaurant": [
+   "s5e11_p.mp4",
+   1000.0,
+   12.0
+  ],
+  "hankdvd": [
+   "s5e11_p.mp4",
+   1256.0,
+   8.0
+  ],
+  "waltdvd": [
+   "s5e11_p.mp4",
+   1280.0,
+   12.0
+  ],
+  "waltrun": [
+   "s5e13_p.mp4",
+   1924.0,
+   10.0
+  ],
+  "waltcall": [
+   "s5e13_p.mp4",
+   2012.0,
+   12.0
+  ],
+  "hankgun": [
+   "s5e13_p.mp4",
+   2084.0,
+   10.0
+  ],
+  "handsup": [
+   "s5e13_p.mp4",
+   2200.0,
+   14.0
+  ],
+  "cuffs": [
+   "s5e13_p.mp4",
+   2280.0,
+   10.0
+  ],
+  "hankwalt": [
+   "s5e13_p.mp4",
+   2368.0,
+   12.0
+  ],
+  "hankmarie": [
+   "s5e13_p.mp4",
+   2476.0,
+   14.0
+  ],
+  "jackarrive": [
+   "s5e13_p.mp4",
+   2564.0,
+   10.0
+  ],
+  "shootout": [
+   "s5e13_p.mp4",
+   2600.0,
+   14.0
+  ],
+  "hankshoot": [
+   "s5e13_p.mp4",
+   2664.0,
+   12.0
+  ],
+  "gomezdead": [
+   "s5e14_p.mp4",
+   336.0,
+   8.0
+  ],
+  "hankwounded": [
+   "s5e14_p.mp4",
+   360.0,
+   12.0
+  ],
+  "waltbegs": [
+   "s5e14_p.mp4",
+   440.0,
+   14.0
+  ],
+  "hankground": [
+   "s5e14_p.mp4",
+   492.0,
+   12.0
+  ],
+  "jackgun": [
+   "s5e14_p.mp4",
+   520.0,
+   10.0
+  ],
+  "hankfinal": [
+   "s5e14_p.mp4",
+   576.0,
+   14.0
+  ],
+  "shotflash": [
+   "s5e14_p.mp4",
+   638.0,
+   6.0
+  ],
+  "waltcollapse": [
+   "s5e14_p.mp4",
+   648.0,
+   12.0
+  ],
+  "barrels": [
+   "s5e14_p.mp4",
+   748.0,
+   10.0
+  ],
+  "grave": [
+   "s5e14_p.mp4",
+   772.0,
+   8.0
+  ],
+  "ticket": [
+   "s5e16_p.mp4",
+   1938.0,
+   12.0
+  ],
+  "partygun": [
+   "s1e01_p.mp4",
+   670.0,
+   12.0
+  ],
+  "toast": [
+   "s1e01_p.mp4",
+   714.0,
+   10.0
+  ],
+  "tvbust": [
+   "s1e01_p.mp4",
+   741.0,
+   12.0
+  ],
+  "ridealong": [
+   "s1e01_p.mp4",
+   1368.0,
+   14.0
+  ],
+  "raid": [
+   "s1e01_p.mp4",
+   1464.0,
+   8.0
+  ],
+  "jessewindow": [
+   "s1e01_p.mp4",
+   1576.0,
+   8.0
+  ],
+  "waltsees": [
+   "s1e01_p.mp4",
+   1588.0,
+   10.0
+  ],
+  "diner": [
+   "s5e10_p.mp4",
+   480.0,
+   12.0
+  ],
+  "hankmarie10": [
+   "s5e10_p.mp4",
+   2480.0,
+   12.0
+  ],
+  "d_men": [
+   "s1e01_p.mp4",
+   697.5,
+   8.2
+  ],
+  "d_minute": [
+   "s3e07_p.mp4",
+   2479.0,
+   11.4
+  ],
+  "d_fakecall": [
+   "s3e06_p.mp4",
+   2446.7,
+   14.3
+  ],
+  "d_gusname": [
+   "s3e06_p.mp4",
+   2773.8,
+   12.3
+  ],
+  "d_minerals": [
+   "s4e02_p.mp4",
+   1979.7,
+   4.3
+  ],
+  "d_ww": [
+   "s4e04_p.mp4",
+   1377.6,
+   19.3
+  ],
+  "d_genius": [
+   "s4e05_p.mp4",
+   2685.8,
+   10.2
+  ],
+  "d_toilet": [
+   "s5e08_p.mp4",
+   2768.4,
+   24.9
+  ],
+  "d_garage1": [
+   "s5e09_p.mp4",
+   2755.6,
+   6.7
+  ],
+  "d_garage2": [
+   "s5e09_p.mp4",
+   2768.1,
+   16.2
+  ],
+  "d_career": [
+   "s5e10_p.mp4",
+   2498.6,
+   20.9
+  ],
+  "d_dvd": [
+   "s5e11_p.mp4",
+   1244.2,
+   18.6
+  ],
+  "d_gotyou": [
+   "s5e13_p.mp4",
+   2475.3,
+   9.1
+  ],
+  "d_love": [
+   "s5e13_p.mp4",
+   2524.0,
+   11.8
+  ],
+  "d_tenmin": [
+   "s5e14_p.mp4",
+   605.5,
+   17.5
+  ],
+  "d_asac": [
+   "s5e14_p.mp4",
+   564.6,
+   24.42
+  ],
+  "d_coords": [
+   "s5e16_p.mp4",
+   1945.2,
+   15.2
+  ]
+ },
+ "stills": {
+  "walthat": [
+   "none.mp4",
+   0
+  ],
+  "waltface": [
+   "none.mp4",
+   0
+  ],
+  "gus": [
+   "none.mp4",
+   0
+  ],
+  "jesse": [
+   "none.mp4",
+   0
+  ],
+  "mike": [
+   "none.mp4",
+   0
+  ],
+  "hankface": [
+   "none.mp4",
+   0
+  ],
+  "hankparty": [
+   "none.mp4",
+   0
+  ]
+ },
+ "dlg": {
+  "d_men": 8.2,
+  "d_minute": 11.4,
+  "d_fakecall": 14.3,
+  "d_gusname": 12.3,
+  "d_minerals": 4.3,
+  "d_ww": 19.3,
+  "d_genius": 10.2,
+  "d_toilet": 24.9,
+  "d_garage1": 6.7,
+  "d_garage2": 16.2,
+  "d_career": 20.9,
+  "d_dvd": 18.6,
+  "d_gotyou": 9.1,
+  "d_love": 11.8,
+  "d_tenmin": 17.5,
+  "d_asac": 24.42,
+  "d_coords": 15.2
+ }
+}
