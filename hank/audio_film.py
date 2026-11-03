@@ -139,8 +139,11 @@ def s_slide(e):
     d = max(.2, e.get('dur', .35)); n = sec(d + .1); put(sfxb, e['t'], bp(noise(d + .1), 1200, 6000) * ramp(n, d * .4, d * .5), .1, rs.uniform(-.4, .4))
 def s_type(e): put(sfxb, e['t'], typeclick(), .2 if e.get('heavy') else .13, rs.uniform(-.3, .3))
 def s_tick(e): put(sfxb, e['t'], bp(noise(.04), 2500, 7000) * env(sec(.04), .0005, .008), .25, rs.uniform(-.4, .4))
+# whoosh: user-supplied sample (samples/whoosh.flac), peak-normalised, played quietly; peak lands mid-move
+_wr = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', f'{here}/samples/whoosh.flac', '-f', 's16le', '-ac', '1', '-ar', str(SR), '-'], capture_output=True).stdout
+WHOOSH = np.frombuffer(_wr, np.int16).astype(np.float64); WHOOSH /= np.max(np.abs(WHOOSH)); WPK = int(np.argmax(np.abs(WHOOSH))) / SR
 def s_whoosh(e):
-    d = e.get('dur', .7); put(sfxb, e['t'] - .1, whoosh(d + .2, .55, 200, 3500 if e.get('soft') else 5000), .14 if e.get('soft') else .22)
+    d = e.get('dur', .7); put(sfxb, max(0, e['t'] + d * .45 - WPK), WHOOSH, .07 if e.get('soft') else .1, rs.uniform(-.2, .2))
 def s_zip(e):
     d = max(.2, e.get('dur', .5)); n = sec(d); tt = np.arange(n) / SR
     put(sfxb, e['t'], np.sin(2 * np.pi * np.cumsum(300 + 500 * tt / d) / SR) * bp(noise(d), 400, 3000) * .5 * ramp(n, .1, .1), .14, -.3)
@@ -209,7 +212,7 @@ duck = (1 - .62 * envv) * (1 - .88 * dlg_mask)
 # ---------------- mix ----------------
 mus_w = reverb(mus, 1.8, .22); sfx_w = reverb(sfxb, 1.0, .12)
 music_bus = mus_w * .5 * duck
-mix = voice * 1.0 + dlg * 1.0 + music_bus * .55 + sfx_w * .42 * (1 - .25 * envv) * (1 - .5 * dlg_mask)
+mix = voice * 1.0 + dlg * 1.0 + music_bus * .55 + sfx_w * .34 * (1 - .25 * envv) * (1 - .5 * dlg_mask)
 mix = np.tanh(mix * 1.05) / 1.05
 fin = np.ones(N); fin[:sec(.5)] = np.linspace(0, 1, sec(.5)); j0 = sec(DUR - 1.6); fin[j0:] = np.linspace(1, 0, N - j0); mix *= fin
 mix *= .9 / np.max(np.abs(mix))
