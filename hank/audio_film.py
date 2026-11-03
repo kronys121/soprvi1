@@ -66,65 +66,64 @@ def hitm(t, g=.5): put(mus, t, thump(38, 2.0, .8), g); put(mus, t, piano(21, 2.5
 def motif(t0, g=.15, up=0):  # five-note theme (A minor)
     pianoline([(t0, 57 + up), (t0 + .8, 60 + up), (t0 + 1.6, 64 + up), (t0 + 2.6, 62 + up), (t0 + 3.4, 60 + up)], g)
 
-# 00 cold open: piano + pad, then the slick groove under the dossier
+# 00 cold open: piano + pad, then a confident groove under the dossier
 a, b = CHR[0]
-pad(.4, 24, [45, 52, 57, 64], .05, 1000); motif(1.0, .14); motif(9.0, .13, 7); hitm(1.6, .35)
-groove(24.0, b - .4, .9, rh=True, slide=True)
-# 01 ВОЛКИ И ОВЦЫ: soft rhodes groove, drone at the till
+pad(.4, 22, [45, 52, 57, 64], .05, 1000); motif(1.0, .14); motif(9.0, .13, 7); hitm(1.6, .35)
+groove(22.0, b - .4, .9, rh=True, slide=True)
+# 01 ПИВО И ПИСТОЛЕТ: party groove, lighter after the insert
 a, b = CHR[1]; hitm(a + .1, .45)
-groove(a + .9, a + 30, .8, rh=True, kick_every=8); drone(a + 30, b - .3, .14); motif(a + 46, .12)
-# 02 СКОЛЬЗКИЙ ДЖИММИ: playful driving groove
-a, b = CHR[2]; hitm(a + .1, .45)
-groove(a + .9, b - .4, 1.05, kick_every=2, rh=True, slide=True)
-# 03 БРАТ: pad + motif, drone under the chimp insert, clock after
-a, b = CHR[3]; hitm(a + .1, .45)
-pad(a + .9, 34, [45, 52, 57, 64, 69], .055, 1100); motif(a + 2, .15)
-groove(a + 36, a + 54, .75, half=True); drone(a + 54, b - .3, .15); clock(a + 74, b - .3, .08)
-# 04 ПОЧТОВАЯ КОМНАТА: hopeful half-time groove
-a, b = CHR[4]; hitm(a + .1, .45)
-groove(a + .9, a + 46, .85, half=True, rh=True); pad(a + 46, b - a - 46.4, [45, 52, 57, 60], .05, 900); motif(a + 48, .13)
-# 05 КИМ: warm groove for the con, pad at the end
+groove(a + .9, DLGT['d_men'] - .3, 1.0, kick_every=2, rh=True); drone(DLGT['d_men'], DLGT['d_men'] + 8.3, .1)
+groove(DLGT['d_men'] + 8.4, b - .4, .85, rh=True, slide=True)
+# 02 ТУКО: tense pulse to the shootout, hit, then a hollow "hero" groove
+a, b = CHR[2]; hitm(a + .1, .5)
+drone(a + .9, a + 18, .16); clock(a + 4, a + 18, .1); hitm(a + 18.5, .6)
+groove(a + 24, a + 40, .85, half=True); pad(a + 40, b - a - 40.4, [45, 52, 57, 60], .05, 900); motif(a + 42, .12)
+# 03 ЛИФТ: heartbeat drone, music box at the river
+a, b = CHR[3]; hitm(a + .1, .5)
+drone(a + .9, a + 30, .17); clock(a + 2, a + 14, .11); motif(a + 40, .12, 12); pad(a + 38, b - a - 38.4, [45, 52, 57, 64], .045, 900)
+# 04 ЭЛЬ-ПАСО: dry drone, the blast, then the parallel groove
+a, b = CHR[4]; hitm(a + .1, .5)
+drone(a + .9, a + 17, .15); clock(a + 9, a + 17, .1); hitm(a + 17, .7); drone(a + 18, a + 38, .17)
+groove(a + 38, b - .4, .85, half=True, rh=True)
+# 05 ФУРГОН: driving case groove, drone for the fake call and the beating
 a, b = CHR[5]; hitm(a + .1, .45)
-pad(a + .9, 18, [45, 52, 57, 64], .05, 1000); groove(a + 18, a + 54, .95, rh=True, slide=True)
-pad(a + 54, b - a - 54.4, [45, 52, 57, 60], .055, 900); motif(a + 56, .13)
-# 06 1261: night groove for the forgery, clock for the trap, drone for the hearing
-a, b = CHR[6]; hitm(a + .1, .45)
-groove(a + .9, a + 30, .9, half=True, slide=True); clock(a + 30, a + 56, .09); drone(a + 30, b - .3, .15)
-hitm(DLGT['d_battery'] + 26.5, .5); motif(DLGT['d_battery'] + 28, .12)
-# 07 ФОНАРЬ: cold drone, motif after the lantern
-a, b = CHR[7]; hitm(a + .1, .5)
-drone(a + .9, b - .3, .17); clock(a + 30, a + 50, .08); motif(a + 52, .12); motif(b - 10, .11, 7)
-# 08 ВСЁ ХОРОШО: pad for the letter, the slick groove kicks in with the new name
+groove(a + .9, DLGT['d_fakecall'] - .4, 1.0, kick_every=2, rh=True); drone(DLGT['d_fakecall'], b - .3, .16)
+clock(DLGT['d_fakecall'] + 30, DLGT['d_fakecall'] + 42, .1); motif(DLGT['d_gusname'] - 14, .12)
+# 06 ОДНА МИНУТА: clock to the attack, hits, then courage motif
+a, b = CHR[6]; hitm(a + .1, .5)
+drone(a + .9, DLGT['d_minute'] + 30, .17); clock(DLGT['d_minute'] + 11.5, DLGT['d_minute'] + 30, .12)
+pad(DLGT['d_minute'] + 31, 28, [45, 52, 57, 64, 69], .055, 1100); motif(DLGT['d_minute'] + 32, .15); drone(DLGT['d_minute'] + 58, b - .3, .14)
+# 07 МИНЕРАЛЫ: sparse drone, light groove for the minerals
+a, b = CHR[7]; hitm(a + .1, .45)
+drone(a + .9, a + 46, .14); motif(a + 20, .12); groove(a + 50, b - .4, .85, rh=True, slide=True)
+# 08 W.W.: investigative groove, eerie drone after the joke
 a, b = CHR[8]; hitm(a + .1, .45)
-pad(a + .9, 28, [45, 52, 57, 64], .05, 1000); motif(a + 2, .13)
-drone(a + 29, DLGT['d_sall'] + 15.8, .13); hitm(DLGT['d_sall'] + 15.9, .55)
-groove(DLGT['d_sall'] + 16.2, b - .4, 1.0, kick_every=2, rh=True, slide=True)
-# 09 ПУСТЫНЯ: dry drone and clock; motif under Mike's lesson
-a, b = CHR[9]; hitm(a + .1, .5)
-groove(a + .9, a + 16, .8, half=True); drone(a + 16, b - .3, .17); clock(a + 16, DLGT['d_desert'], .1)
-motif(DLGT['d_desert'] + 20.3, .13); pad(DLGT['d_desert'] + 20, 14, [45, 52, 57, 60], .045, 800)
-# 10 ХОВАРД: playful groove for the con, drone to the shot, pad after Kim leaves
+groove(a + .9, DLGT['d_ww'] - .4, .9, half=True, slide=True); drone(DLGT['d_ww'] + 19.5, b - .3, .15); clock(DLGT['d_ww'] + 20, DLGT['d_genius'], .09)
+# 09 ЦЫПЛЁНОК: sure-footed groove, drone for the irony
+a, b = CHR[9]; hitm(a + .1, .45)
+groove(a + .9, a + 38, .95, kick_every=2, rh=True); drone(a + 38, b - .3, .15); motif(b - 14, .12)
+# 10 ТУАЛЕТ: warm party groove, then silence and drone as it clicks
 a, b = CHR[10]; hitm(a + .1, .45)
-groove(a + .9, a + 36, .9, rh=True, slide=True); drone(a + 36, DLGT['d_poison'] + 12, .16); clock(a + 36, DLGT['d_howard'], .1)
-pad(DLGT['d_poison'] + 12, 20, [45, 52, 57, 60], .05, 900); motif(DLGT['d_poison'] + 13, .13)
-groove(DLGT['d_poison'] + 34, b - .4, .9, kick_every=2, rh=True)
-# 11 ДЖИН: grey drone + music box, clock for the cons
-a, b = CHR[11]; hitm(a + .1, .45)
-drone(a + .9, b - .3, .14); motif(a + 3, .12, 12); motif(a + 18, .12, 12); clock(a + 32, b - .3, .09)
-# 12 МАШИНА ВРЕМЕНИ: pad + motif, drone through the flashbacks
-a, b = CHR[12]; hitm(a + .1, .5)
-pad(a + .9, 22, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14); drone(a + 22, b - .3, .14); motif(b - 12, .12, 7)
-# 13 86 ЛЕТ: pulse for the deal, drone for the court, pad for the cigarette
+groove(a + .9, a + 12, .85, rh=True, slide=True); drone(a + 12, b - .3, .16); clock(a + 24, DLGT['d_toilet'], .1); hitm(DLGT['d_toilet'] + 25, .55)
+# 11 ГАРАЖ: drone and clock, hard hit on the punch
+a, b = CHR[11]; hitm(a + .1, .5)
+drone(a + .9, b - .3, .17); clock(a + 2, a + 14, .1); hitm(a + 13.5, .6); motif(b - 9, .12, 7)
+# 12 КАРЬЕРА: uneasy half-time groove, drone under the DVD
+a, b = CHR[12]; hitm(a + .1, .45)
+drone(a + .9, DLGT['d_career'] + 21, .14); groove(DLGT['d_career'] + 21.2, DLGT['d_dvd'] - .4, .85, half=True); drone(DLGT['d_dvd'], b - .3, .15)
+# 13 ТОХАДЖИЛИ: pulse to the arrest, pad for the call, clock and drone for the gang
 a, b = CHR[13]; hitm(a + .1, .5)
-groove(a + .9, a + 24, .9, kick_every=2, rh=True); drone(a + 24, DLGT['d_name'] + 5, .15); clock(a + 34, DLGT['d_name'], .09)
-hitm(DLGT['d_name'] + 5, .55); pad(DLGT['d_name'] + 5.3, b - DLGT['d_name'] - 5.6, [45, 52, 57, 64, 69], .055, 1100)
-motif(DLGT['d_name'] + 7, .14); motif(b - 14, .13, 7)
-# 14 ВЕРДИКТ: pad + motif, building groove to the happy end
-a, b = CHR[14]; hitm(a + .1, .5)
-pad(a + .9, 26, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14)
-groove(a + 27, b - .4, .95, rh=True)
-# 15 outro
-a, b = CHR[15]; hitm(a + .1, .45)
+groove(a + .9, a + 22, 1.0, kick_every=2, rh=True); pad(a + 22, DLGT['d_love'] + 13 - a - 22, [45, 52, 57, 64, 69], .055, 1100); motif(a + 23, .15)
+drone(DLGT['d_love'] + 13, b - .3, .17); clock(DLGT['d_love'] + 13, b - .3, .12)
+# 14 ОЗИМАНДИЯ: low drone, near-silence under the inserts, hit at the shot, motif for the farewell
+a, b = CHR[14]; hitm(a + .1, .55)
+drone(a + .9, DLGT['d_asac'] + 26, .16); hitm(DLGT['d_asac'] + 26.5, .8)
+pad(DLGT['d_asac'] + 33, b - DLGT['d_asac'] - 33.4, [45, 52, 57, 64, 69], .055, 1100); motif(DLGT['d_asac'] + 34, .15); motif(b - 12, .13, 7)
+# 15 ВЕРДИКТ: pad + motif, building groove
+a, b = CHR[15]; hitm(a + .1, .5)
+pad(a + .9, 30, [45, 52, 57, 64], .05, 1000); motif(a + 2, .14); groove(a + 31, b - .4, .95, rh=True)
+# 16 outro
+a, b = CHR[16]; hitm(a + .1, .45)
 groove(a + .4, b - 4.5, .9, rh=True); hitm(b - 4.4, .65)
 
 # ---------------- SFX from the scene events ----------------
