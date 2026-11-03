@@ -39,10 +39,10 @@ function buildScenes() {
   // S4 · the parallel: Walt grows bolder, Hank shakes; one learns he's stronger, the other weaker — same table every Sunday
   const A4 = [2000, 1900]; lamp(A4[0], A4[1] - 200, 2000, 1);
   const pa = card({ x: A4[0] - 100, y: A4[1] - 60, w: 900, h: 460, rot: -.015, order: 400, lined: false, tIn: Wt('обратите') - .3, dur: .3, enter: 'slide', dx: 0, dy: 500,
-    text: (g, t, it) => { g.strokeStyle = INK; g.lineWidth = 3; g.beginPath(); g.moveTo(0, -165); g.lineTo(0, 190); g.stroke(); drawTyped(g, it.h, t, 0, -195, `700 26px ${MONO}`, '#666', 'center');
+    text: (g, t, it) => { g.strokeStyle = INK; g.lineWidth = 3; g.beginPath(); g.moveTo(0, -165); g.lineTo(0, 190); g.stroke(); drawTyped(g, it.hd, t, 0, -195, `700 26px ${MONO}`, '#666', 'center');
       drawTyped(g, it.a, t, -225, -125, `800 40px ${SANS}`, INK, 'center'); drawTyped(g, it.b, t, -225, -60, `700 26px ${MONO}`, INK, 'center'); drawTyped(g, it.c, t, -225, 30, `800 40px ${SANS}`, RED, 'center');
       drawTyped(g, it.d, t, 225, -125, `800 40px ${SANS}`, INK, 'center'); drawTyped(g, it.e, t, 225, -60, `700 26px ${MONO}`, INK, 'center'); drawTyped(g, it.f, t, 225, 30, `800 40px ${SANS}`, '#888', 'center'); } });
-  pa.h = typed('одна и та же линия, два человека', Wt('обратите') + .1, .03); pa.a = typed('УОЛТЕР ↑', Wt('уолтер') - .1, .05); pa.b = typed('всё смелее', Wt('смелее') - .3, .04); pa.c = typed('СИЛЬНЕЕ', Wt('сильнее') - .1, .06);
+  pa.hd = typed('одна и та же линия, два человека', Wt('обратите') + .1, .03); pa.a = typed('УОЛТЕР ↑', Wt('уолтер') - .1, .05); pa.b = typed('всё смелее', Wt('смелее') - .3, .04); pa.c = typed('СИЛЬНЕЕ', Wt('сильнее') - .1, .06);
   pa.d = typed('ХЭНК ↓', Wt('=хэнка', 2) - .3, .05); pa.e = typed('трясёт', Wt('трясёт') - .2, .05); pa.f = typed('СЛАБЕЕ', Wt('слабее') - .1, .06);
   pw('dinner', Wt('двое') - .4, { x: A4[0] - 100, y: A4[1] + 470, w: 520, rot: .02, order: 410, off: 6, caption: capt('КАЖДОЕ ВОСКРЕСЕНЬЕ · ОДИН СТОЛ', Wt('воскресенье')), capSize: 18 });
   goTo(A4, Wt('называет') + .6, Wt('обратите') + .1, A4[0] - 860, A4[1] - 460);
