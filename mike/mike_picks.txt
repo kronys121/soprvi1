@@ -1,0 +1,33 @@
+# key ep t dur note
+truckhide s4e04 36 14 Mike hides in the back of the truck, ushanka hat
+truckfire s4e04 112 14 shots tear through the truck at night
+truckout s4e04 184 14 dawn: Mike steps out over the bodies
+ear s4e04 212 16 Mike's bloodied ear, calm on the phone
+mikejesse s4e04 2364 12 Mike comes for Jesse
+mikeclose s4e04 2424 8 Mike close-up
+drive s4e04 2640 14 Mike and Jesse driving in silence
+deaddrop s4e05 2020 12 night: Mike walks to the dead drop
+carnight s4e05 2084 14 Mike and Jesse in the car at night
+gusmike s4e05 2340 14 Gus and Mike talk in the car
+mikedrive s4e05 2372 12 Mike driving, unreadable
+mikejesse9 s4e09 1300 12 Mike and Jesse at night, Mike watches
+sniperfield s4e09 1412 12 the cartel sniper strike at the drop site
+gussniper s4e09 1440 12 Gus walks out into the sniper's sights
+nineman s5e08 324 10 one of Mike's nine men in custody, silent
+lydialist s5e08 700 8 Lydia writes the list of names
+prison1 s5e08 1040 14 the prison murders begin
+prison2 s5e08 1096 12 the prison murders: more killings
+prison3 s5e08 1136 10 the prison murders: the fire
+mikewalt12 s3e12 1340 12 Mike sits down with Walt in the dark room
+mikespeech s3e12 1512 14 Mike tells the story, close-up
+mikeclose12 s3e12 1596 12 Mike: "no more half measures"
+mikejesse12 s3e12 1748 10 Mike with Jesse in the car
+mexico s4e10 2060 12 the cartel hacienda in Mexico
+mikemexico s4e10 2072 8 Mike at the hacienda, watchful
+gusmexico s4e10 2240 10 Mike at the cartel party
+mikefight s4e10 2696 12 Mike in the shootout, wounded
+mikewound s4e10 2760 12 Jesse drags the wounded Mike to the car
+cleaner s2e13 320 12 Mike arrives at Jesse's house, the cleaner
+cleanup s2e13 392 14 Mike in gloves cleans up after Jane's death
+mikecoach s2e13 460 14 Mike coaches Jesse what to tell the police
+mikenight s3e13 2444 12 Mike and Victor take Walt at night
