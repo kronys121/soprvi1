@@ -185,6 +185,8 @@ def load(path, ch=1):
     x = np.frombuffer(raw, np.int16).astype(np.float64) / 32767
     return x.reshape(-1, ch).T if ch > 1 else x
 v = load(f'{here}/voice/result.mp3')
+# fact fix: drop the words 'без оружия' (Mike's gun was hidden in the cops' car)
+a0, a1 = int(196.40 * SR), int(197.30 * SR); fz = int(.01 * SR); v = v.copy(); v[a0 - fz:a0] *= np.linspace(1, 0, fz); v[a0:a1] = 0; v[a1:a1 + fz] *= np.linspace(0, 1, fz)
 voice = buf()
 for p in TL['p']:
     piece = v[int(p['v0'] * SR):int(min(p['v1'], len(v) / SR) * SR)].copy(); fd = sec(.01); piece[:fd] *= np.linspace(0, 1, fd); piece[-fd:] *= np.linspace(1, 0, fd)
