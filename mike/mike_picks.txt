@@ -118,7 +118,7 @@ argue s5e07 2568 14 Mike and Walt argue by the car
 shot7 s5e07 2632 10 Walt shoots Mike in the car
 riverbank s5e07 2720 14 Mike sits by the river
 riverwalt s5e07 2744 12 Walt finds him by the river
-riverdeath s5e07 2772 14 Mike falls on the riverbank
+riverdeath s5e07 2781 10 the river at sunset where Mike dies
 jailvisit s5e03 40 14 Dan visits one of Mike's men in jail
 inmate s5e03 120 12 the inmate, silent
 moneycount s5e03 2332 12 the money split on the table
