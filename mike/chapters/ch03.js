@@ -5,15 +5,14 @@ function buildScenes() {
   const D = [0, 0]; divider(D, 3, 'ДВОЕ', T_START);
   hold(T_START, Wt('нашли') + .2, D[0], D[1] + 10, .95, .01, { dz: .12 });
 
-  // S1 · Hoffman and Fenske found dead, officially unsolved; we know who did it: Mike, playing drunk (gun hidden in their car) — killed both
+  // S1 · Hoffman and Fenske found dead, officially unsolved; we know who did it: Mike, unarmed, playing drunk — killed both
   const A1 = [2000, -200]; lamp(A1[0], A1[1] - 200, 1800, .8);
   const cs = card({ x: A1[0] - 520, y: A1[1] - 120, w: 560, h: 360, rot: -.03, order: 100, color: '#f3efe2', lined: false, tIn: Wt('хоффмана') - .2, dur: .3, enter: 'slide', dx: -400, dy: 0,
     text: (g, t, it) => { g.fillStyle = INK; g.font = `700 24px ${MONO}`; g.textAlign = 'left'; g.fillText('ПОЛИЦИЯ ФИЛАДЕЛЬФИИ', -250, -130);
       drawTyped(g, it.a, t, -250, -60, `800 34px ${SANS}`); drawTyped(g, it.b, t, -250, -10, `800 34px ${SANS}`); drawStamp(g, it.s, t); } });
   cs.a = typed('ХОФФМАН — мёртв', Wt('мёртвыми') - .4, .04); cs.b = typed('ФЕНСКЕ — мёртв', Wt('мёртвыми') + .2, .04);
   cs.s = { text: 'НЕ РАСКРЫТО', t: Wt('раскрыли') - .2, size: 52, rot: -.1, x: 0, y: 100 };
-  const dk = pw('drunk', Wt('пришёл') - .3, { x: A1[0] + 360, y: A1[1] - 160, w: 620, rot: .02, order: 110, off: 1, caption: capt('ПРИТВОРИЛСЯ ПЬЯНЫМ', Wt('пьяным')), capSize: 22 });
-  dk.stamps = [stamp('ПИСТОЛЕТ — В ИХ МАШИНЕ', Wt('сам') + .4, { x: 0, y: -20, size: 32, rot: -.06, shake: 10 })];
+  pw('drunk', Wt('пьяным') - .8, { x: A1[0] + 360, y: A1[1] - 160, w: 620, rot: .02, order: 110, off: 1, caption: capt('ПРИТВОРИЛСЯ ПЬЯНЫМ', Wt('пьяным')), capSize: 22 });
   const tw = pw('twodead', Wt('убить') - .4, { x: A1[0] + 400, y: A1[1] + 300, w: 520, rot: -.03, order: 120, off: 2 });
   tw.stamps = [stamp('ОБОИХ', Wt('обоих') - .1, { x: 0, y: 30, size: 80, rot: -.08, shake: 20 })];
   sfx('shot', Wt('убил') + .1); sfx('shot', Wt('обоих') + .1);
