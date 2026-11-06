@@ -31,3 +31,99 @@ cleaner s2e13 320 12 Mike arrives at Jesse's house, the cleaner
 cleanup s2e13 392 14 Mike in gloves cleans up after Jane's death
 mikecoach s2e13 460 14 Mike coaches Jesse what to tell the police
 mikenight s3e13 2444 12 Mike and Victor take Walt at night
+philtrain c1e06 12 14 Philadelphia train station, Mike arrives
+philstation c1e06 76 12 Mike at the station, Stacey
+kaylee c1e06 252 14 Mike with Kaylee in the garden
+stacey c1e06 400 12 Stacey talks to Mike
+detectives c1e06 1024 14 Philadelphia detectives question Mike and Saul
+interrog c1e06 1096 12 Mike under interrogation, calm
+philbar c1e06 1640 12 flashback: Mike drinking in a Philadelphia bar
+drunk c1e06 1708 10 flashback: drunk Mike at the bar
+alley c1e06 1748 12 flashback: night street, Mike follows
+squadcar c1e06 1832 10 flashback: the squad car
+cars c1e06 1856 12 flashback: Hoffman and Fenske in the car
+monologue c1e06 2340 14 Mike tells Stacey "I broke my boy"
+staceyclose c1e06 2412 8 Stacey listens
+hug c1e06 2452 14 Mike and Stacey at the end
+ambush c1e06 1996 12 flashback: they drag "drunk" Mike to the lot
+twodead c1e06 2048 12 flashback: Mike stands over the two bodies
+caesar c1e06 2132 10 Mike in the car after, alone
+nachooffer c2e04 1796 14 Nacho and Mike in the garage: "I won't do it"
+mikenacho c2e04 1852 10 Mike refuses, close
+tucocafe c2e04 1896 12 Tuco counting money in the cafe
+phone c2e04 2024 12 Mike calls the police from the payphone
+tucomike c2e04 2216 14 Tuco confronts Mike outside
+tucoface c2e04 2252 10 Mike, calm, face to face with Tuco
+beat c2e04 2356 10 Tuco beats Mike
+bloody c2e04 2392 8 Mike bloodied, Tuco arrested
+nachonight c2e04 2460 14 night: Mike and Nacho, the money
+diner c2e05 2612 12 Hector's emissary in the diner offers Mike a deal
+dinermike c2e05 2660 12 Mike listens, unmoved
+dinerend c2e05 2708 8 Mike alone in the diner
+truckborder c2e08 8 14 the Regalo Helado truck at the border
+stakeout c2e08 2040 12 Mike staking out the ice-cream truck
+binocs c2e08 2068 10 Mike watches the truck through binoculars
+mikecar c2e08 2144 8 Mike in his car, waiting
+spikes c2e09 40 12 the truck on the desert road, spike strip
+heist c2e09 136 14 Mike holds the driver at gunpoint, ski mask
+tied c2e09 164 12 the driver tied up in the desert
+walkoff c2e09 224 14 Mike walks away from the truck
+nachomike9 c2e09 2000 12 Mike and Nacho in the barn: "you killed someone?"
+nachobarn c2e09 2120 12 Mike and Nacho argue in the barn
+scope c2e10 1920 14 through the rifle scope: Hector in the sights
+sniper c2e10 1944 12 Mike lying with the sniper rifle
+waiting c2e10 2004 12 Mike waits on the ridge
+horn c2e10 2052 12 a car horn: Mike looks back
+note c2e10 2096 10 the note on the windshield: "DON'T"
+mikenote c2e10 2112 10 Mike holds the note
+sneakers c3e03 1740 12 Mike fills the sneakers in the desert
+wire c3e03 1784 12 Mike throws the sneakers over the wire
+sniper3 c3e03 2064 12 Mike watches the border through the scope
+regalo c3e03 2148 10 Hector's ice-cream trucks
+shot3 c3e03 2196 14 Mike shoots the drug-filled sneakers
+border c3e03 2360 14 the dogs find the drugs at the border
+roadcall c3e03 136 12 Mike on the phone at the roadside
+gusarrive c3e03 208 12 Gus Fring steps out of the car
+gusmeet c3e03 240 14 Mike and Gus face to face on the road
+gusmeet2 c3e03 280 14 Mike and Gus, close-ups
+wernerspa c4e10 2184 12 Werner at the spa pool, on the phone
+mikefinds c4e10 2288 14 Mike finds Werner at the resort
+wernernight c4e10 2504 12 night: Mike and Werner talk by the car
+wernerclose c4e10 2620 14 Werner, night, close
+mikenight10 c4e10 2700 12 Mike listens in the dark
+wernerstars c4e10 2896 14 Werner looks up at the stars, Mike behind him
+wernerwalk c4e10 2928 12 Werner walks into the dark; the shot
+lab c4e10 3012 12 Mike in the unfinished superlab after
+nachophone c6e03 600 14 Nacho calls his father from Mexico
+van c6e03 2212 12 Mike and Nacho in the van, the plan
+mikerock c6e03 2256 10 Mike on the ridge, rifle
+mikesnipe c6e03 2308 12 Mike lines up the rifle
+nachokneel c6e03 2448 12 Nacho on his knees before Juan Bolsa
+nachoend c6e03 2516 12 Nacho's last moments, Mike watches
+nachogun c6e03 2604 10 Nacho grabs the gun
+mikescope c6e03 2660 8 Mike at the scope, watching
+mikeup c6e03 2716 14 Mike rises from his position, alone
+kimmike c6e04 1890 14 Mike sits down beside Kim: "I'm not a cop"
+kimmike2 c6e04 2000 14 Mike tells Kim she's made of iron
+wernergone c4e09 3010 14 night: Werner escapes from the lab
+mikewerner9 c4e09 3150 14 Mike learns Werner is gone
+desert7 s5e07 64 14 cold open: the desert meeting, Mike with Walt and Jesse
+mikedesert s5e07 280 10 Mike in the desert, close
+bank s5e07 1960 12 the bank: Kaylee's account frozen
+park s5e07 2184 14 Mike with Kaylee at the playground
+parkcall s5e07 2236 12 Mike on the phone in the park, sees police
+leavekaylee s5e07 2276 10 Mike leaves Kaylee on the swings
+riverarrive s5e07 2500 14 Walt arrives at the meeting by the river
+argue s5e07 2568 14 Mike and Walt argue by the car
+shot7 s5e07 2632 10 Walt shoots Mike in the car
+riverbank s5e07 2720 14 Mike sits by the river
+riverwalt s5e07 2744 12 Walt finds him by the river
+riverdeath s5e07 2772 14 Mike falls on the riverbank
+jailvisit s5e03 40 14 Dan visits one of Mike's men in jail
+inmate s5e03 120 12 the inmate, silent
+moneycount s5e03 2332 12 the money split on the table
+mikeshare s5e03 2408 14 Mike insists on paying his men
+mikeface3 s5e03 2488 10 Mike, close: "because it's right"
+desert1 s5e01 960 14 the desert: Mike with Walt and Jesse
+mikeangry s5e01 1124 14 Mike lectures Walt and Jesse at Jesse's house
+mikewalt1 s5e01 1220 14 Mike and Walt face off
