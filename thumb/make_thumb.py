@@ -32,11 +32,11 @@ font_path = '/usr/share/fonts/opentype/inter/InterDisplay-Black.otf'
 size = 400
 while True:
     f = ImageFont.truetype(font_path, size); b = f.getbbox(word)
-    if b[2] - b[0] <= W * (.94 if side == 'center' else .46) or size < 80: break
+    if b[2] - b[0] <= W * (.94 if side == 'center' else float(os.environ.get('WF', .46))) or size < 80: break
     size -= 6
 tw, th = b[2] - b[0], b[3] - b[1]
 txt = Image.new('L', (W, H), 0); d = ImageDraw.Draw(txt)
-cx = W / 2 if side == 'center' else (W * .77 if side == 'right' else W * .23)
+cx = W / 2 if side == 'center' else (W * .77 if side == 'right' else W * float(os.environ.get('CX', .23)))
 d.text((cx - tw / 2 - b[0], H * ty - th / 2 - b[1]), word, font=f, fill=255)
 # paper texture on the letters
 rng = np.random.default_rng(3); noise = rng.normal(0, 1, (H // 2, W // 2)).astype(np.float32)
