@@ -1,0 +1,9 @@
+# key ep start end note
+d_saul s2e08 1824.8 1844.6 "Нет, я ни при чём! Это всё Игнасио!.. Вас не Лало прислал?"
+d_gus c4e09 1734.5 1762.6 Lalo thanks Gus for saving Hector
+d_kim c5e09 3275.3 3299.0 Kim berates Lalo
+d_attack c5e10 2998 3014 the night attack on the compound
+d_how1 c6e07 2883.4 2894.2 "Ты кто такой?" "Я? Да никто"
+d_how2 c6e07 2921.8 2936.6 the shot: "Говард!"
+d_lab c6e08 1919.5 1942.3 Lalo in the lab: "вырыл себе могилу"
+d_never c6e11 2183.1 2202.3 "Чё за Лало?" "Да он никто"

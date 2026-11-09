@@ -1,0 +1,602 @@
+{
+ "fps": 23.976,
+ "clips": {
+  "saulgrave": [
+   "s2e08_p.mp4",
+   1856.0,
+   10.0
+  ],
+  "saulmask": [
+   "s2e08_p.mp4",
+   1840.0,
+   8.0
+  ],
+  "saulsign": [
+   "s2e08_p.mp4",
+   1792.0,
+   8.0
+  ],
+  "lalocook": [
+   "c4e08_p.mp4",
+   3000.0,
+   12.0
+  ],
+  "lalonacho": [
+   "c4e08_p.mp4",
+   3028.0,
+   12.0
+  ],
+  "lalopoint": [
+   "c4e08_p.mp4",
+   3052.0,
+   8.0
+  ],
+  "lalosmile": [
+   "c4e08_p.mp4",
+   3084.0,
+   10.0
+  ],
+  "lalogo": [
+   "c4e08_p.mp4",
+   3096.0,
+   8.0
+  ],
+  "pollos": [
+   "c4e09_p.mp4",
+   1680.0,
+   12.0
+  ],
+  "pollosgus": [
+   "c4e09_p.mp4",
+   1644.0,
+   10.0
+  ],
+  "gusoffice": [
+   "c4e09_p.mp4",
+   1740.0,
+   12.0
+  ],
+  "laloffice": [
+   "c4e09_p.mp4",
+   1776.0,
+   12.0
+  ],
+  "gusclose9": [
+   "c4e09_p.mp4",
+   1764.0,
+   8.0
+  ],
+  "casa": [
+   "c4e09_p.mp4",
+   412.0,
+   12.0
+  ],
+  "lalohector": [
+   "c4e09_p.mp4",
+   500.0,
+   14.0
+  ],
+  "nachowatch": [
+   "c4e09_p.mp4",
+   536.0,
+   8.0
+  ],
+  "bellgift": [
+   "c4e09_p.mp4",
+   644.0,
+   10.0
+  ],
+  "bellring": [
+   "c4e09_p.mp4",
+   668.0,
+   10.0
+  ],
+  "travelwire": [
+   "c4e10_p.mp4",
+   2004.0,
+   8.0
+  ],
+  "fred": [
+   "c4e10_p.mp4",
+   2012.0,
+   12.0
+  ],
+  "fredno": [
+   "c4e10_p.mp4",
+   2036.0,
+   10.0
+  ],
+  "fredcam": [
+   "c4e10_p.mp4",
+   2108.0,
+   10.0
+  ],
+  "lalopc": [
+   "c4e10_p.mp4",
+   2132.0,
+   10.0
+  ],
+  "werner": [
+   "c4e10_p.mp4",
+   2152.0,
+   10.0
+  ],
+  "wernerphone": [
+   "c4e10_p.mp4",
+   2188.0,
+   14.0
+  ],
+  "lalophone": [
+   "c4e10_p.mp4",
+   2212.0,
+   12.0
+  ],
+  "wernerend": [
+   "c4e10_p.mp4",
+   2852.0,
+   10.0
+  ],
+  "lalowatch": [
+   "c5e02_p.mp4",
+   1812.0,
+   12.0
+  ],
+  "nachoroof": [
+   "c5e02_p.mp4",
+   1844.0,
+   10.0
+  ],
+  "jimmylalo": [
+   "c5e03_p.mp4",
+   444.0,
+   10.0
+  ],
+  "lalofee": [
+   "c5e03_p.mp4",
+   544.0,
+   12.0
+  ],
+  "mikepi": [
+   "c5e06_p.mp4",
+   1310.0,
+   12.0
+  ],
+  "lalocourt": [
+   "c5e07_p.mp4",
+   2340.0,
+   12.0
+  ],
+  "lalojimmy7": [
+   "c5e07_p.mp4",
+   2364.0,
+   10.0
+  ],
+  "gusalone": [
+   "c5e07_p.mp4",
+   2240.0,
+   8.0
+  ],
+  "pollosfire": [
+   "c5e07_p.mp4",
+   2262.0,
+   14.0
+  ],
+  "bailmoney": [
+   "c5e09_p.mp4",
+   340.0,
+   10.0
+  ],
+  "cousins": [
+   "c5e08_p.mp4",
+   1000.0,
+   10.0
+  ],
+  "ambush": [
+   "c5e08_p.mp4",
+   1040.0,
+   14.0
+  ],
+  "jimmyhide": [
+   "c5e08_p.mp4",
+   1080.0,
+   10.0
+  ],
+  "mikesniper": [
+   "c5e08_p.mp4",
+   1220.0,
+   12.0
+  ],
+  "walk": [
+   "c5e08_p.mp4",
+   1580.0,
+   14.0
+  ],
+  "laloout": [
+   "c5e09_p.mp4",
+   470.0,
+   12.0
+  ],
+  "lalodesert": [
+   "c5e09_p.mp4",
+   2340.0,
+   12.0
+  ],
+  "findcar": [
+   "c5e09_p.mp4",
+   2452.0,
+   10.0
+  ],
+  "carholes": [
+   "c5e09_p.mp4",
+   2464.0,
+   12.0
+  ],
+  "apartment": [
+   "c5e09_p.mp4",
+   3216.0,
+   12.0
+  ],
+  "lalojimmy": [
+   "c5e09_p.mp4",
+   3240.0,
+   10.0
+  ],
+  "kimlalo": [
+   "c5e09_p.mp4",
+   3348.0,
+   10.0
+  ],
+  "lalokim": [
+   "c5e09_p.mp4",
+   3380.0,
+   8.0
+  ],
+  "laloleave": [
+   "c5e09_p.mp4",
+   3496.0,
+   10.0
+  ],
+  "compound": [
+   "c5e10_p.mp4",
+   1664.0,
+   10.0
+  ],
+  "eladio": [
+   "c5e10_p.mp4",
+   1720.0,
+   12.0
+  ],
+  "eladiocar": [
+   "c5e10_p.mp4",
+   1768.0,
+   12.0
+  ],
+  "nachoeladio": [
+   "c5e10_p.mp4",
+   1840.0,
+   10.0
+  ],
+  "nachogate": [
+   "c5e10_p.mp4",
+   2896.0,
+   10.0
+  ],
+  "kitchenfire": [
+   "c5e10_p.mp4",
+   2936.0,
+   12.0
+  ],
+  "lalotunnel": [
+   "c5e10_p.mp4",
+   3056.0,
+   12.0
+  ],
+  "caller": [
+   "c5e10_p.mp4",
+   3484.0,
+   14.0
+  ],
+  "twins": [
+   "c6e01_p.mp4",
+   1016.0,
+   10.0
+  ],
+  "burned": [
+   "c6e01_p.mp4",
+   1056.0,
+   12.0
+  ],
+  "village": [
+   "c6e01_p.mp4",
+   548.0,
+   12.0
+  ],
+  "lalovillage": [
+   "c6e01_p.mp4",
+   664.0,
+   12.0
+  ],
+  "border": [
+   "c6e01_p.mp4",
+   2928.0,
+   10.0
+  ],
+  "lalocall": [
+   "c6e01_p.mp4",
+   3040.0,
+   12.0
+  ],
+  "hectorcall": [
+   "c6e01_p.mp4",
+   3048.0,
+   8.0
+  ],
+  "gushector": [
+   "c6e02_p.mp4",
+   1680.0,
+   12.0
+  ],
+  "gushec2": [
+   "c6e02_p.mp4",
+   1740.0,
+   10.0
+  ],
+  "gusphone": [
+   "c6e02_p.mp4",
+   1816.0,
+   10.0
+  ],
+  "margarethe": [
+   "c6e05_p.mp4",
+   2560.0,
+   12.0
+  ],
+  "marg2": [
+   "c6e05_p.mp4",
+   2640.0,
+   10.0
+  ],
+  "housebreak": [
+   "c6e05_p.mp4",
+   2788.0,
+   10.0
+  ],
+  "houseinside": [
+   "c6e05_p.mp4",
+   2836.0,
+   10.0
+  ],
+  "sliderule": [
+   "c6e05_p.mp4",
+   2992.0,
+   8.0
+  ],
+  "casper": [
+   "c6e06_p.mp4",
+   1364.0,
+   12.0
+  ],
+  "lalocasper": [
+   "c6e06_p.mp4",
+   1496.0,
+   10.0
+  ],
+  "sewer": [
+   "c6e07_p.mp4",
+   2252.0,
+   12.0
+  ],
+  "hectorphone": [
+   "c6e07_p.mp4",
+   2308.0,
+   10.0
+  ],
+  "laundry": [
+   "c6e07_p.mp4",
+   2352.0,
+   10.0
+  ],
+  "gusguard": [
+   "c6e07_p.mp4",
+   2524.0,
+   10.0
+  ],
+  "howard": [
+   "c6e07_p.mp4",
+   2880.0,
+   12.0
+  ],
+  "kimfear": [
+   "c6e07_p.mp4",
+   2896.0,
+   8.0
+  ],
+  "laloinstr": [
+   "c6e08_p.mp4",
+   546.0,
+   10.0
+  ],
+  "kimgo": [
+   "c6e08_p.mp4",
+   430.0,
+   10.0
+  ],
+  "tie": [
+   "c6e08_p.mp4",
+   576.0,
+   12.0
+  ],
+  "gusarrive": [
+   "c6e08_p.mp4",
+   1456.0,
+   12.0
+  ],
+  "guards": [
+   "c6e08_p.mp4",
+   1536.0,
+   10.0
+  ],
+  "lalocam": [
+   "c6e08_p.mp4",
+   1660.0,
+   12.0
+  ],
+  "gusfilmed": [
+   "c6e08_p.mp4",
+   1688.0,
+   10.0
+  ],
+  "labstairs": [
+   "c6e08_p.mp4",
+   1840.0,
+   12.0
+  ],
+  "labdark": [
+   "c6e08_p.mp4",
+   1960.0,
+   10.0
+  ],
+  "lalodying": [
+   "c6e08_p.mp4",
+   2140.0,
+   14.0
+  ],
+  "gusafter": [
+   "c6e08_p.mp4",
+   2184.0,
+   12.0
+  ],
+  "d_saul": [
+   "s2e08_p.mp4",
+   1824.8,
+   19.8
+  ],
+  "d_gus": [
+   "c4e09_p.mp4",
+   1734.5,
+   28.1
+  ],
+  "d_kim": [
+   "c5e09_p.mp4",
+   3275.3,
+   23.7
+  ],
+  "d_attack": [
+   "c5e10_p.mp4",
+   2998.0,
+   16.0
+  ],
+  "d_how1": [
+   "c6e07_p.mp4",
+   2883.4,
+   10.8
+  ],
+  "d_how2": [
+   "c6e07_p.mp4",
+   2921.8,
+   14.8
+  ],
+  "d_lab": [
+   "c6e08_p.mp4",
+   1919.5,
+   22.8
+  ],
+  "d_never": [
+   "c6e11_p.mp4",
+   2183.1,
+   19.2
+  ]
+ },
+ "stills": {
+  "gus": [
+   "none.mp4",
+   0
+  ],
+  "mikeface": [
+   "none.mp4",
+   0
+  ],
+  "saulface": [
+   "none.mp4",
+   0
+  ],
+  "walthat": [
+   "none.mp4",
+   0
+  ],
+  "jesse": [
+   "none.mp4",
+   0
+  ],
+  "hankface": [
+   "none.mp4",
+   0
+  ],
+  "waltface": [
+   "none.mp4",
+   0
+  ],
+  "laloface": [
+   "c6e01_p.mp4",
+   3181
+  ],
+  "lalogrin": [
+   "c4e08_p.mp4",
+   3054
+  ],
+  "nachoface": [
+   "c4e08_p.mp4",
+   2968
+  ],
+  "hectorface": [
+   "c6e01_p.mp4",
+   3050
+  ],
+  "kimface": [
+   "c5e09_p.mp4",
+   3352
+  ],
+  "howardface": [
+   "c6e07_p.mp4",
+   2846
+  ],
+  "eladioface": [
+   "c5e10_p.mp4",
+   1736
+  ],
+  "wernerface": [
+   "c4e10_p.mp4",
+   2196
+  ],
+  "jimmyface": [
+   "c5e09_p.mp4",
+   3260
+  ],
+  "margface": [
+   "c6e05_p.mp4",
+   2644
+  ],
+  "lalojail": [
+   "c5e07_p.mp4",
+   2372
+  ],
+  "gusface": [
+   "c4e09_p.mp4",
+   1748
+  ],
+  "lalosun": [
+   "c5e10_p.mp4",
+   1757
+  ]
+ },
+ "dlg": {
+  "d_saul": 19.8,
+  "d_gus": 28.1,
+  "d_kim": 23.7,
+  "d_attack": 16.0,
+  "d_how1": 10.8,
+  "d_how2": 14.8,
+  "d_lab": 22.8,
+  "d_never": 19.2
+ }
+}

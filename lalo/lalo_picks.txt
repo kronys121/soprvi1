@@ -1,0 +1,94 @@
+# key ep t dur note
+saulgrave s2e08 1856 10 Saul on his knees at the grave in the desert
+saulmask s2e08 1840 8 masked Walt and Jesse drag Saul out of the van
+saulsign s2e08 1792 8 Better Call Saul strip mall at night
+lalocook c4e08 3000 12 Lalo cooks in the restaurant kitchen
+lalonacho c4e08 3028 12 Lalo serves food to Nacho
+lalopoint c4e08 3052 8 Lalo points and grins
+lalosmile c4e08 3084 10 Lalo smiles, phone in hand
+lalogo c4e08 3096 8 Lalo walks out
+pollos c4e09 1680 12 Lalo at a Los Pollos table, all charm
+pollosgus c4e09 1644 10 Gus behind the counter at Los Pollos
+gusoffice c4e09 1740 12 Gus in his office listening to Lalo
+laloffice c4e09 1776 12 Lalo in Gus's office, lit by the lamp
+gusclose9 c4e09 1764 8 Gus profile in the dark
+casa c4e09 412 12 the nursing home, Lalo walks in
+lalohector c4e09 500 14 Lalo whispers to Hector
+nachowatch c4e09 536 8 Nacho watches
+bellgift c4e09 644 10 the bell: Lalo gives it to Hector
+bellring c4e09 668 10 Hector rings, Lalo laughs
+travelwire c4e10 2004 8 the Travel Wire store
+fred c4e10 2012 12 Lalo charms the clerk Fred
+fredno c4e10 2036 10 Lalo's smile at the refusal
+fredcam c4e10 2108 10 Lalo watches the security footage
+lalopc c4e10 2132 10 Lalo at the computer
+werner c4e10 2152 10 Werner at the spa pool
+wernerphone c4e10 2188 14 Werner on the phone in a beach shirt
+lalophone c4e10 2212 12 Lalo calls from the car
+wernerend c4e10 2852 10 Werner on the ground at night, Mike
+lalowatch c5e02 1812 12 Lalo in the car, watching the raid
+nachoroof c5e02 1844 10 police raid, Nacho on the roof
+jimmylalo c5e03 444 10 Lalo sits across from Jimmy
+lalofee c5e03 544 12 Lalo agrees to the fee
+mikepi c5e06 1310 12 Mike as a private investigator with the witness
+lalocourt c5e07 2340 12 Lalo in an orange jumpsuit in court
+lalojimmy7 c5e07 2364 10 Lalo whispers to Jimmy in court
+gusalone c5e07 2240 8 Gus alone in the dark Los Pollos
+pollosfire c5e07 2262 14 the restaurant burns
+bailmoney c5e09 340 10 the seven million counted at the bail window
+cousins c5e08 1000 10 the cousins hand over the money bags
+ambush c5e08 1040 14 the ambush in the desert
+jimmyhide c5e08 1080 10 Jimmy hides behind the car
+mikesniper c5e08 1220 12 Mike in the hat after the rescue
+walk c5e08 1580 14 Jimmy and Mike walk the desert with the bags
+laloout c5e09 470 12 Lalo out on bail with Jimmy at night
+lalodesert c5e09 2340 12 Lalo and Nacho in the desert
+findcar c5e09 2452 10 Lalo spots the car in the ravine
+carholes c5e09 2464 12 Lalo examines the bullet holes
+apartment c5e09 3216 12 Lalo in Jimmy and Kim's apartment
+lalojimmy c5e09 3240 10 Lalo questions Jimmy
+kimlalo c5e09 3348 10 Kim stares Lalo down
+lalokim c5e09 3380 8 Lalo listens to Kim
+laloleave c5e09 3496 10 Lalo and Nacho in the car at night
+compound c5e10 1664 10 the Mexico compound by the pool
+eladio c5e10 1720 12 Don Eladio with Lalo
+eladiocar c5e10 1768 12 Eladio and the red car
+nachoeladio c5e10 1840 10 Nacho meets Eladio
+nachogate c5e10 2896 10 Nacho at the gate with the padlock
+kitchenfire c5e10 2936 12 the kitchen fills with smoke
+lalotunnel c5e10 3056 12 Lalo in the tunnel
+caller c5e10 3484 14 Lalo forces the last killer to call
+twins c6e01 1016 10 Salamancas arrive at the burned compound
+burned c6e01 1056 12 the burned body under the sheet
+village c6e01 548 12 the village house
+lalovillage c6e01 664 12 Lalo at the window of the village house
+border c6e01 2928 10 Lalo at the border crossing
+lalocall c6e01 3040 12 Lalo on the phone to Hector
+hectorcall c6e01 3048 8 Hector listens on the phone
+gushector c6e02 1680 12 Gus sits with Hector at the home
+gushec2 c6e02 1740 10 Gus watches Hector
+gusphone c6e02 1816 10 Gus on the phone outside
+margarethe c6e05 2560 12 Lalo charms Margarethe in a German bar
+marg2 c6e05 2640 10 Margarethe at the door
+housebreak c6e05 2788 10 Lalo slips into the house
+houseinside c6e05 2836 10 Lalo in Werner's study
+sliderule c6e05 2992 8 Lalo finds the slide rule souvenir
+casper c6e06 1364 12 Casper chops wood in the forest
+lalocasper c6e06 1496 10 Lalo with a gun on Casper
+sewer c6e07 2252 12 Lalo underground, waiting
+hectorphone c6e07 2308 10 Hector on the phone at the home
+laundry c6e07 2352 10 the laundry
+gusguard c6e07 2524 10 Gus with Mike, the trap at the house
+howard c6e07 2880 12 Howard in Jimmy and Kim's apartment
+kimfear c6e07 2896 8 Kim and Jimmy frozen
+laloinstr c6e08 546 10 Lalo instructs Jimmy
+kimgo c6e08 430 10 Kim leaves
+tie c6e08 576 12 Lalo ties Jimmy
+gusarrive c6e08 1456 12 Gus arrives at the laundry at night
+guards c6e08 1536 10 the dead guards
+lalocam c6e08 1660 12 Lalo films Gus with the camcorder
+gusfilmed c6e08 1688 10 Gus on camera
+labstairs c6e08 1840 12 down into the lab
+labdark c6e08 1960 10 the dark lab
+lalodying c6e08 2140 14 Lalo laughing, dying
+gusafter c6e08 2184 12 Gus wounded after the shot
