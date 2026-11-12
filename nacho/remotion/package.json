@@ -1,0 +1,17 @@
+{
+  "name": "nacho-dossier",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Досье: Начо Варга — Remotion-проект для рендера ролика",
+  "scripts": {
+    "prepare-frames": "node scripts/prepare.mjs",
+    "start": "remotion studio",
+    "render": "remotion render Nacho out/nacho.mp4 --codec=h264 --crf=20 --audio-codec=aac --audio-bitrate=256k"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.539"
+  }
+}
