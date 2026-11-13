@@ -20,9 +20,14 @@
     cat nacho_remotion.zip.001 nacho_remotion.zip.002 > nacho_remotion.zip
 
 Проверка (SHA-256 собранного архива):
-`32c4fda69f103778df9ca2705540f753c3d7e869b960ea616fbb017c990e0378`
+`45ff90988ef991bcfc4411d4b1c43e7162876bc6d9b6668c3763195a6c017dee`
 
-## Как отрендерить
+## Веб-интерфейс
+
+В папке `remotion` дважды щёлкни `studio.bat` — откроется Remotion Studio в браузере (http://localhost:3000): просмотр ролика, таймлайн и кнопка **Render**.
+Рендер одной кнопкой без браузера — `render.bat`.
+
+## Как отрендерить из консоли
 
 Нужен Node.js 18+. Распакуй архив, перейди в папку `remotion` и выполни:
 

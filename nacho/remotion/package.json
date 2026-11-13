@@ -7,7 +7,8 @@
     "prepare-clips": "node scripts/prepare-clips.mjs",
     "start": "npm run prepare-clips && remotion studio",
     "render": "npm run prepare-clips && remotion render Nacho out/nacho_final.mp4 --codec=h264 --crf=20 --audio-codec=aac --audio-bitrate=256k --concurrency=8",
-    "still": "npm run prepare-clips && remotion still Nacho out/still.jpg --frame=600"
+    "still": "npm run prepare-clips && remotion still Nacho out/still.jpg --frame=600",
+    "studio": "npm run prepare-clips && remotion studio"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",

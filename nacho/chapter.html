@@ -94,7 +94,9 @@ function drawSample(t) {
   } else drawWorld(actx, t, c, 'all', null);
   drawFG(actx, t, c);
 }
+const PREVIEW = new URLSearchParams(location.search).get('preview') === '1';   // Remotion Studio: one sample per frame
 function samplesAt(t) {
+  if (PREVIEW) return 1;
   let n = Math.min(8, 1 + Math.ceil(camSpeed(t) / 7));
   for (const [a, b, k] of FAST) if (t >= a && t <= b) n = Math.max(n, k);
   return n;
