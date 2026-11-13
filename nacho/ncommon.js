@@ -8,7 +8,10 @@ const SH = [];
 function S(t, x, y, z, r = 0, o = {}) { SH.push({ t, x, y, z, r, o }); }
 function buildShots(tEnd) {
   SH.sort((a, b) => a.t - b.t);
-  const L = SH.filter((s, i) => i === 0 || s.t - SH[i - 1].t > .12);
+  // HOLD rule: every shot stays on screen at least 2 s — a shot that would be cut sooner is dropped
+  // (the camera keeps the previous framing). The chapter's first shot is always kept.
+  const L = []; let nextT = tEnd;
+  for (let i = SH.length - 1; i >= 0; i--) { if (i === 0 || nextT - SH[i].t >= 2.0) { L.unshift(SH[i]); nextT = SH[i].t; } }
   L.forEach((s, i) => {
     const t1 = i < L.length - 1 ? L[i + 1].t : tEnd, o = s.o, tc = seg(s.t, i === 0 || o.quiet);
     if (o.to) { ck(tc, s.x, s.y, s.z, s.r); ck(Math.max(t1, tc + .1), o.to[0], o.to[1], o.to[2], o.to[3] ?? s.r); return; }

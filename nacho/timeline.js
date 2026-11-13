@@ -9,7 +9,7 @@ const EVENTS = [
   { v: 141.15, type: 'break', ch: 3, title: 'ТУКО' },
   { v: 167.69, v1: 167.69, type: 'cut', dlg: ['d_mike'] },
   { v: 180.97, type: 'break', ch: 4, title: 'ГЕКТОР' },
-  { v: 208.34, type: 'break', ch: 5, title: 'ТАБЛЕТКИ' },
+  { v: 209.42, type: 'break', ch: 5, title: 'ТАБЛЕТКИ' },
   { v: 261.10, type: 'break', ch: 6, title: 'ПОВОДОК' },
   { v: 302.40, type: 'break', ch: 7, title: 'ЛАЛО' },
   { v: 341.52, v1: 341.52, type: 'cut', dlg: ['d_out'] },
@@ -23,7 +23,7 @@ const EVENTS = [
   { v: 538.04, type: 'break', ch: 12, title: '' }
 ];
 const DLG = {"d_saul2": 2.96, "d_police": 9.1, "d_mike": 3.6, "d_out": 13.7, "d_night": 17.0, "d_toast": 5.2, "d_call1": 14.5, "d_call2": 11.1, "d_conf": 7.5};
-const PAUSE = 1.0, GAP = .35, VOICE_END = 562.97, TAIL = 5.0;
+const PAUSE = 1.8, GAP = .35, VOICE_END = 562.97, TAIL = 5.0;
 // build pieces
 const PIECES = []; const DLGT = {};          // DLGT: dialogue key -> film start time
 (function () {

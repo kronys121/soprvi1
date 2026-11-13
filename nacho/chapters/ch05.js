@@ -1,5 +1,5 @@
 // 05 · ТАБЛЕТКИ — the fake capsules, the stroke, Gus saves Hector
-CH_V0 = 208.34;
+CH_V0 = 209.42;
 const [T_START, T_END] = chRange(5);
 function buildScenes() {
   const w = (s, n = 1, e = false) => Wt(s, n, e);
