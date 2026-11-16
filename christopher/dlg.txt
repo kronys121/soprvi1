@@ -1,0 +1,7 @@
+# key ep start end
+d_crash so6e18 472.00 478.60
+d_hell1 so2e09 777.60 788.80
+d_hell2 so2e09 806.00 820.60
+d_conf so5e12 2084.60 2090.30
+d_conf2 so5e12 2105.80 2109.80
+d_jt so6e17 3023.20 3031.30
