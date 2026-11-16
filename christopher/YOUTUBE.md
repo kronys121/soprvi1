@@ -6,6 +6,12 @@
 3. Почему Тони убил своего преемника? Кристофер Молтисанти | Досье
 
 ## Превью
+По твоему фото (рекомендую):
+- `out/chris_photo_plemyannik_red.jpg` — «ПЛЕМЯННИК» прямо за Кристофером, красный текст
+- `out/chris_photo_preemnik.jpg` / `_red` — «ПРЕЕМНИК»
+- `out/chris_photo_zadushil.jpg` / `_red` — «ЗАДУШИЛ»
+
+По кадрам из сериала:
 - `out/chris_thumb_plemyannik_red.jpg` — «ПЛЕМЯННИК» за Кристофером с пистолетом, красный текст (рекомендую)
 - `out/chris_thumb_plemyannik.jpg` — то же, белый текст
 - `out/chris_thumb_preemnik.jpg` / `_red` — «ПРЕЕМНИК», Кристофер в костюме
