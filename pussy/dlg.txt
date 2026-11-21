@@ -1,0 +1,6 @@
+# key ep start end
+d_face so2e13 2369.60 2373.40
+d_nothing so1e11 1281.00 1295.70
+d_aj so2e07 3061.30 3067.80
+d_fish so2e13 1681.80 1694.40
+d_confess so2e13 2095.10 2109.40
