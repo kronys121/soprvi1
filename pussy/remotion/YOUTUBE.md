@@ -6,7 +6,13 @@
 3. Почему Тони убил лучшего друга? Большой Пусси | Досье
 
 ## Превью
-- `out/pussy_thumb_krysa_red.jpg` — «КРЫСА» прямо за Пусси, красный текст (рекомендую)
+По твоему фото (рекомендую):
+- `out/pussy_photo_krysa_red.jpg` — «КРЫСА» прямо за Пусси, красный текст
+- `out/pussy_photo_predatel.jpg` / `_red` — «ПРЕДАТЕЛЬ»
+- `out/pussy_photo_drug.jpg` / `_red` — «ДРУГ»
+
+По кадрам из сериала:
+- `out/pussy_thumb_krysa_red.jpg` — «КРЫСА» прямо за Пусси, красный текст
 - `out/pussy_thumb_krysa.jpg` — то же, белый текст
 - `out/pussy_thumb_predatel.jpg` / `_red` — «ПРЕДАТЕЛЬ»
 - `out/pussy_thumb_drug.jpg` / `_red` — «ДРУГ», Пусси плачет на конфирмации (слово сильно перекрыто)
